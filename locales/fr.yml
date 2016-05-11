@@ -166,7 +166,7 @@ fr:
       4-Route-1: Vérification de contraintes sur les attributs des séquences d'arrêt
       4-StopArea-1: Vérification de contraintes sur les attributs des arrêts
       4-StopArea-2: Vérification de l'existance d'un arrêt commercial pour les arrêts physiques
-      4-StopArea-3:
+      4-StopArea-3: Vérification de la cohérence entre les noms de communes et leur code INSEE
       4-Timetable-1: Vérification de contraintes sur les attributs des calendiers
       4-VehicleJourney-1: Vérification de contraintes sur les attributs des courses
       4-VehicleJourney-2: Vérification des modes de transport des courses

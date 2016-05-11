@@ -104,7 +104,7 @@ en:
       2-NEPTUNE-StopPoint-4: Vérification du modèle de projection de référence utilisé.
       2-NEPTUNE-Timetable-1: Utilité des calendriers.
       2-NEPTUNE-Timetable-2: Validité des dates de début and de fin des périodes des calendriers
-      2-NEPTUNE-Timetable-3:
+      2-NEPTUNE-Timetable-3: Validité des dates de début et de fin des périodes des calendriers
       2-NEPTUNE-VehicleJourney-1: Existence de la séquence d'arrêt <ChouetteRoute> référencée par la course <VehicleJourney>.
       2-NEPTUNE-VehicleJourney-2: Existence of journey pattern <JourneyPattern> référencée par la course <VehicleJourney>.
       2-NEPTUNE-VehicleJourney-3: Existence of line <Line> référencée par la course <VehicleJourney>.
@@ -128,9 +128,9 @@ en:
       3-ConnectionLink-3: Vérification de la vitesse de parcours entre les deux arrêts d'une correspondance
       3-Facility-1: Vérification de la géolocalisation de tous les accès
       3-Facility-2: Vérification de la proximité entre les équipements and leur arrêt de rattachement
-      3-JourneyPattern-1: Vérification de double définition de missions
-      3-JourneyPattern-2:
-      3-JourneyPattern-3:
+      3-JourneyPattern-1: Vérification de l'utilisation des arrêts par les missions
+      3-JourneyPattern-2: Vérification de l’existence d’une mission passant par tous les arrêts de la séquence
+      3-JourneyPattern-3: Vérification de double définition de missions
       3-Line-1: Vérification de la non homonymie des lignes
       3-Line-2: Vérification de la présence de séquences d'arrêts sur la ligne
       3-Route-1: Vérification de la succession des arrêts de la séquence
@@ -166,7 +166,7 @@ en:
       4-Route-1: Vérification de contraintes sur les attributs des séquences d'arrêt
       4-StopArea-1: Vérification de contraintes sur les attributs des arrêts
       4-StopArea-2: Vérification de l'existance d'un arrêt commercial pour les arrêts physiques
-      4-StopArea-3: Vérification de la cohérence entre les noms de communes and leur code INSEE
+      4-StopArea-3: Vérification de la cohérence entre les noms de communes et leur code INSEE
       4-Timetable-1: Vérification de contraintes sur les attributs des calendiers
       4-VehicleJourney-1: Vérification de contraintes sur les attributs des courses
       4-VehicleJourney-2: Vérification des modes de transport des courses
