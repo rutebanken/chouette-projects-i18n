@@ -387,10 +387,15 @@ en:
       detail_4_vehiclejourney_1_unique: Attribute %{reference_value} of journey %{source_label} (%{source_objectid}) has the same value as that of journey %{target_0_label} (%{target_0_objectid})
       detail_4_vehiclejourney_2: Journey %{source_label} (%{source_objectid}) transport mode is invalid %{error_value}
     severities:
+      error: Error
       error_txt: Error
+      ignored: Ignored
       ignored_txt: Ignored
+      ok: Ok
       ok_txt: Ok
+      success: Success
       success_txt: Success
+      warning: Warning
       warning_txt: Warning
   iev:
     errors:

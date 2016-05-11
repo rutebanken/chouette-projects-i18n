@@ -387,10 +387,15 @@ fr:
       detail_4_vehiclejourney_1_unique: L'attribut %{reference_value} de la course %{source_label} (%{source_objectid}) a une valeur partagée avec la course %{target_0_label} (%{target_0_objectid})
       detail_4_vehiclejourney_2: La course %{source_label} (%{source_objectid}) a un mode de transport interdit %{error_value}
     severities:
+      error: Erreur
       error_txt: Erreur
+      ignored: Ignoré
       ignored_txt: Ignoré
+      ok: Ok
       ok_txt: Ok
+      success: Succès
       success_txt: Succès
+      warning: Avertissement
       warning_txt: Avertissement
   iev:
     errors:
