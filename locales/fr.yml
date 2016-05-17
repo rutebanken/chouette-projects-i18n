@@ -391,6 +391,8 @@ fr:
       error_txt: Erreur
       ignored: Ignoré
       ignored_txt: Ignoré
+      none: Absent
+      none_txt: Absent
       ok: Ok
       ok_txt: Ok
       success: Succès
