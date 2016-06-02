@@ -151,6 +151,7 @@ en:
       3-VehicleJourney-2: Vérification de la vitesse de transfert entre deux arrêts
       3-VehicleJourney-3: Vérification de la cohérence des courses successives desservant deux mêmes arrêts
       3-VehicleJourney-4: Vérification de l'affectation des courses à un calendrier
+      3-VehicleJourney-5: Journey times shall respect time chronology
       4-AccessLink-1: Vérification de contraintes sur les attributs des liens d'accès
       4-AccessPoint-1: Vérification de contraintes sur les attributs des accès
       4-Company-1: Vérification de contraintes sur les attributs des transporteurs
@@ -330,6 +331,8 @@ en:
       detail_3_vehiclejourney_2_3: Journey %{source_label} (%{source_objectid}) speed %{error_value} > %{reference_value} km/h between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})
       detail_3_vehiclejourney_3: 'The travel time of Vehicle Journey %{source_label} (%{source_objectid}) has a too large difference with the travel time of the next journey %{target_0_label} (%{target_0_objectid}):  %{error_value} > %{reference_value} minutes, between stops %{target_1_label} (%{target_1_objectid}) and %{target_2_label} (%{target_2_objectid})'
       detail_3_vehiclejourney_4: Journey %{source_label} (%{source_objectid}) has no calendar
+      detail_3_vehiclejourney_5_1: The starting time shall be over the ending time for the stop %{target_0_label} (%{target_0_objectid})
+      detail_3_vehiclejourney_5_2: The journey %{source_label} (%{source_objectid}) has times which don't respect time chronology between the stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})
       detail_4_accesslink_1_max_size: Attribute %{reference_value} of access link %{source_label} (%{source_objectid}) is too large (%{error_value})
       detail_4_accesslink_1_min_size: Attribute %{reference_value} of access link %{source_label} (%{source_objectid}) is empty or too small (%{error_value})
       detail_4_accesslink_1_pattern: Attribute %{reference_value} of access link %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
