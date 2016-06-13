@@ -408,6 +408,7 @@ en:
       duplicate_parameters: Parameters provided in double
       internal_error: Internal error
       invalid_file_format: Invalid file format
+      invalid_format: Invalid format
       invalid_parameters: Incorrect action settings
       invalid_request: Invalid request
       missing_parameters: Missing action settings

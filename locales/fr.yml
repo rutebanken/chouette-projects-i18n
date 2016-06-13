@@ -408,6 +408,7 @@ fr:
       duplicate_parameters: Paramètres fournis en double
       internal_error: Erreur interne
       invalid_file_format: Format de fichier invalide
+      invalid_format: Format invalide
       invalid_parameters: Paramètres d'action incorrects
       invalid_request: Requête invalide
       missing_parameters: Paramètres d'action manquants
