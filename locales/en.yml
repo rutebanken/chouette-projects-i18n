@@ -402,6 +402,14 @@ en:
       success_txt: Success
       warning: Warning
       warning_txt: Warning
+  count_errors:
+    one: 1 error
+    other: "%{count} errors"
+    zero: 0 error
+  count_warnings:
+    one: 1 warning
+    other: "%{count} warnings"
+    zero: 0 warning
   iev:
     errors:
       duplicate_or_missing_data: Missing data or duplicate
@@ -418,3 +426,9 @@ en:
       unknown_job: Unknown job number
       unknown_referential: Unknown referential
       unreadable_parameters: Unreadable parameters (wrong format)
+  job:
+    results:
+      download_by:
+        files: 
+        lines: 
+        tests: 

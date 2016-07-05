@@ -402,6 +402,14 @@ fr:
       success_txt: Succès
       warning: Avertissement
       warning_txt: Avertissement
+  count_errors:
+    one: 1 erreur
+    other: "%{count} erreurs"
+    zero: 0 erreur
+  count_warnings:
+    one: 1 avertissement
+    other: "%{count} avertissements"
+    zero: 0 avertissement
   iev:
     errors:
       duplicate_or_missing_data: Donnée manquante ou en double
@@ -418,3 +426,9 @@ fr:
       unknown_job: Numéro de job inconnu
       unknown_referential: Référentiel inconnu
       unreadable_parameters: Paramètres non lisibles (format erroné)
+  job:
+    results:
+      download_by:
+        files: Télécharger les résultats de validation par fichiers
+        lines: Télécharger les résultats de validation par lignes
+        tests: Télécharger les résultats de validation par tests
