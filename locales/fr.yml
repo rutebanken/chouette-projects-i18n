@@ -330,6 +330,7 @@ fr:
       detail_3_vehiclejourney_2_2: La course %{source_label} (%{source_objectid}) a une vitesse %{error_value} < %{reference_value} km/h entre les arrêts %{target_0_label} (%{target_0_objectid}) et %{target_1_label} (%{target_1_objectid})
       detail_3_vehiclejourney_2_3: La course %{source_label} (%{source_objectid}) a une vitesse %{error_value} > %{reference_value} km/h entre les arrêts %{target_0_label} (%{target_0_objectid}) et %{target_1_label} (%{target_1_objectid})
       detail_3_vehiclejourney_3: 'Trop grande différence de durée de trajet entre les arrêts %{target_1_label} (%{target_1_objectid}) et %{target_2_label} (%{target_2_objectid}) pour la course %{source_label} (%{source_objectid}) par rapport à la course suivante %{target_0_label} (%{target_0_objectid}): %{error_value} > %{reference_value} (minutes)'
+      detail_3_vehiclejourney_3_1: 'Trop grande différence de durée de trajet entre les arrêts %{target_0_label} (%{target_0_objectid}) et %{target_1_label} (%{target_1_objectid}) pour la course %{source_label} (%{source_objectid}) par rapport à la moyenne des courses de la mission: %{error_value} > %{reference_value} (minutes)'
       detail_3_vehiclejourney_4: La course %{source_label} (%{source_objectid}) n'a pas de calendrier d'application
       detail_3_vehiclejourney_5_1: L'horaire de départ doit être supérieur à l'horaire d'arrivée pour l'arrêt %{target_0_label} (%{target_0_objectid})
       detail_3_vehiclejourney_5_2: La course %{source_label} (%{source_objectid}) a des horaires ne respectant pas la chronologie entre les arrêts %{target_0_label} (%{target_0_objectid}) et %{target_1_label} (%{target_1_objectid})
@@ -426,9 +427,3 @@ fr:
       unknown_job: Numéro de job inconnu
       unknown_referential: Référentiel inconnu
       unreadable_parameters: Paramètres non lisibles (format erroné)
-  job:
-    results:
-      download_by:
-        files: Télécharger les résultats de validation par fichiers
-        lines: Télécharger les résultats de validation par lignes
-        tests: Télécharger les résultats de validation par tests

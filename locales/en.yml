@@ -330,6 +330,7 @@ en:
       detail_3_vehiclejourney_2_2: Journey %{source_label} (%{source_objectid}) speed %{error_value} < %{reference_value} km/h between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})
       detail_3_vehiclejourney_2_3: Journey %{source_label} (%{source_objectid}) speed %{error_value} > %{reference_value} km/h between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})
       detail_3_vehiclejourney_3: 'The travel time of Vehicle Journey %{source_label} (%{source_objectid}) has a too large difference with the travel time of the next journey %{target_0_label} (%{target_0_objectid}):  %{error_value} > %{reference_value} minutes, between stops %{target_1_label} (%{target_1_objectid}) and %{target_2_label} (%{target_2_objectid})'
+      detail_3_vehiclejourney_3_1: 'The travel time of Vehicle Journey %{source_label} (%{source_objectid}) has a too large difference with the average travel time on journey pattern :  %{error_value} > %{reference_value} minutes, between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})'
       detail_3_vehiclejourney_4: Journey %{source_label} (%{source_objectid}) has no calendar
       detail_3_vehiclejourney_5_1: The starting time shall be over the ending time for the stop %{target_0_label} (%{target_0_objectid})
       detail_3_vehiclejourney_5_2: The journey %{source_label} (%{source_objectid}) has times which don't respect time chronology between the stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})
@@ -426,9 +427,3 @@ en:
       unknown_job: Unknown job number
       unknown_referential: Unknown referential
       unreadable_parameters: Unreadable parameters (wrong format)
-  job:
-    results:
-      download_by:
-        files: 
-        lines: 
-        tests: 
