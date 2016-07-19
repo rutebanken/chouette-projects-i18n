@@ -427,3 +427,61 @@ fr:
       unknown_job: Numéro de job inconnu
       unknown_referential: Référentiel inconnu
       unreadable_parameters: Paramètres non lisibles (format erroné)
+  report:
+    default_view:
+      access_point: Accès
+      access_points: Accès
+      companies: Transporteurs
+      company: Transporteur
+      connection_link: Correspondance
+      connection_links: Correspondances
+      line: Ligne
+      lines: Lignes
+      network: Réseau
+      networks: Réseaux
+      stop_area: Arrêt
+      stop_areas: Arrêts
+      timetable: Calendrier
+      timetables: Calendriers
+    total_results:
+      files:
+        one: Détails du fichier
+        other: Détails des %{count} fichiers
+        zero: Aucun fichier
+      synthesis:
+        access_point:
+          one: Synthèse de l'accès
+          other: Synthèse des %{count} accès
+          zero: Aucun accès
+        company:
+          one: Synthèse du transporteur
+          other: Synthèse des %{count} transporteurs
+          zero: Aucun transporteur
+        connection_link:
+          one: Synthèse de la correspondance
+          other: Synthèse des %{count} correspondances
+          zero: Aucune correspondance
+        line:
+          one: Synthèse de la ligne
+          other: Synthèse des %{count} lignes
+          zero: Aucune ligne
+        network:
+          one: Synthèse du réseau
+          other: Synthèse des %{count} réseaux
+          zero: Aucun réseau
+        stop_area:
+          one: Synthèse de l'arrêt
+          other: Synthèse des %{count} arrêts
+          zero: Aucun arrêt
+        timetable:
+          one: Synthèse du calendrier
+          other: Synthèse des %{count} calendriers
+          zero: Aucun calendrier
+      tests:
+        one: Détails du test
+        other: Détails des %{count} tests
+        zero: Aucun test
+      transport_datas:
+        one: Détails de la donnée de transport
+        other: Détails des %{count} données de transport
+        zero: Aucune donnée de transport

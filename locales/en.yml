@@ -427,3 +427,31 @@ en:
       unknown_job: Unknown job number
       unknown_referential: Unknown referential
       unreadable_parameters: Unreadable parameters (wrong format)
+  report:
+    default_view:
+      access_point: 
+      access_points: 
+      companies: 
+      company: 
+      connection_link: 
+      connection_links: 
+      line: 
+      lines: 
+      network: 
+      networks: 
+      stop_area: 
+      stop_areas: 
+      timetable: 
+      timetables: 
+    total_results:
+      files: 
+      synthesis:
+        access_point: 
+        company: 
+        connection_link: 
+        line: 
+        network: 
+        stop_area: 
+        timetable: 
+      tests: 
+      transport_datas: 
