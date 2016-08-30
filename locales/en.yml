@@ -441,8 +441,10 @@ en:
       networks: 
       stop_area: 
       stop_areas: 
-      tests-1-2: 
-      tests-3-4: 
+      tests-1-2-error: 
+      tests-1-2-warning: 
+      tests-3-4-error: 
+      tests-3-4-warning: 
       timetable: 
       timetables: 
     total_results:

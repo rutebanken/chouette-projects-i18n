@@ -441,8 +441,10 @@ fr:
       networks: Réseaux
       stop_area: Arrêt
       stop_areas: Arrêts
-      tests-1-2: Tests de validation de conformité au format
-      tests-3-4: Tests complémentaires de contrôle qualité
+      tests-1-2-error: Tests de validation requis de conformité au format
+      tests-1-2-warning: Tests de validation recommandés de conformité au format
+      tests-3-4-error: Tests complémentaires requis de contrôle qualité
+      tests-3-4-warning: Tests complémentaires recommandés de contrôle qualité
       timetable: Calendrier
       timetables: Calendriers
     total_results:
