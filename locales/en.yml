@@ -447,6 +447,11 @@ en:
       tests-3-4-warning: 
       timetable: 
       timetables: 
+    search_form:
+      label:
+        search: 
+        state: 
+        submit: 
     total_results:
       files: 
       synthesis:

@@ -447,6 +447,11 @@ fr:
       tests-3-4-warning: Tests complémentaires recommandés de contrôle qualité
       timetable: Calendrier
       timetables: Calendriers
+    search_form:
+      label:
+        search: Rechercher
+        state: État
+        submit: Filtrer
     total_results:
       files:
         one: Détails du fichier
