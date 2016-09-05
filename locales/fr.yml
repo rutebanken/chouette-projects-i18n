@@ -451,7 +451,7 @@ fr:
       label:
         search: Rechercher
         state: État
-        submit: Filtrer
+      submit: Filtrer
     total_results:
       files:
         one: Détails du fichier

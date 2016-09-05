@@ -451,7 +451,7 @@ en:
       label:
         search: 
         state: 
-        submit: 
+      submit: 
     total_results:
       files: 
       synthesis:
