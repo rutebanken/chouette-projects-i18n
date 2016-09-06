@@ -435,18 +435,22 @@ fr:
       company: Transporteur
       connection_link: Correspondance
       connection_links: Correspondances
+      files: Fichiers
       line: Ligne
       lines: Lignes
       network: Réseau
       networks: Réseaux
       stop_area: Arrêt
       stop_areas: Arrêts
+      tests: Tests
       tests-1-2-error: Tests de validation requis de conformité au format
       tests-1-2-warning: Tests de validation recommandés de conformité au format
       tests-3-4-error: Tests complémentaires requis de contrôle qualité
       tests-3-4-warning: Tests complémentaires recommandés de contrôle qualité
       timetable: Calendrier
       timetables: Calendriers
+      transport_datas: Données de transport
+    download: Télécharger le rapport
     search_form:
       label:
         search: Rechercher

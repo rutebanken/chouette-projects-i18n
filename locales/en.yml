@@ -435,18 +435,22 @@ en:
       company: 
       connection_link: 
       connection_links: 
+      files: Files
       line: 
       lines: 
       network: 
       networks: 
       stop_area: 
       stop_areas: 
+      tests: Tests
       tests-1-2-error: 
       tests-1-2-warning: 
       tests-3-4-error: 
       tests-3-4-warning: 
       timetable: 
       timetables: 
+      transport_datas: Transport datas
+    download: Download
     search_form:
       label:
         search: 
