@@ -451,6 +451,10 @@ fr:
       timetables: Calendriers
       transport_datas: Données de transport
     download: Télécharger le rapport
+    download_by:
+      files: Télécharger les résultats de validation par fichiers
+      tests: Télécharger les résultats de validation par tests
+      transport_datas: Télécharger les résultats de validation par données de transport
     icons:
       error_txt: Erreur
       ignored_txt: Ignoré

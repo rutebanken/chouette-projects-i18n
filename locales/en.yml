@@ -451,6 +451,10 @@ en:
       timetables: 
       transport_datas: Transport datas
     download: Download
+    download_by:
+      files: 
+      tests: 
+      transport_datas: 
     icons:
       error_txt: Error
       ignored_txt: Ignored
