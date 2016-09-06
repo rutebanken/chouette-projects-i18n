@@ -451,6 +451,12 @@ en:
       timetables: 
       transport_datas: Transport datas
     download: Download
+    icons:
+      error_txt: Error
+      ignored_txt: Ignored
+      none_txt: Missing
+      ok_txt: Ok
+      warning_txt: Warning
     search_form:
       label:
         search: 

@@ -451,6 +451,12 @@ fr:
       timetables: Calendriers
       transport_datas: Données de transport
     download: Télécharger le rapport
+    icons:
+      error_txt: Erreur
+      ignored_txt: Ignoré
+      none_txt: Absent
+      ok_txt: Ok
+      warning_txt: Avertissement
     search_form:
       label:
         search: Rechercher
