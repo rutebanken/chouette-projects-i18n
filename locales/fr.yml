@@ -443,10 +443,10 @@ fr:
       stop_area: Arrêt
       stop_areas: Arrêts
       tests: Tests
-      tests-1-2-error: Tests de validation requis de conformité au format
-      tests-1-2-warning: Tests de validation recommandés de conformité au format
-      tests-3-4-error: Tests complémentaires requis de contrôle qualité
-      tests-3-4-warning: Tests complémentaires recommandés de contrôle qualité
+      tests-1-2-error: Tests de validation requis par la conformité au format
+      tests-1-2-warning: Tests de validation recommandés par la conformité au format
+      tests-3-4-error: Tests complémentaires requis par le contrôle qualité
+      tests-3-4-warning: Tests complémentaires recommandés par le contrôle qualité
       timetable: Calendrier
       timetables: Calendriers
       transport_datas: Données de transport
