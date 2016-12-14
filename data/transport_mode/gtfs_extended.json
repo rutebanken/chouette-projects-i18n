@@ -1,0 +1,765 @@
+[
+  {
+    "code": "100",
+    "mode": "Railway Service",
+    "submode": "unspecified",
+    "pivot": "rail",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "101",
+    "mode": "Railway Service",
+    "submode": "High Speed Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "highSpeedRail"
+  }, {
+    "code": "102",
+    "mode": "Railway Service",
+    "submode": "Long Distance Trains",
+    "pivot": "rail",
+    "pivot-submode": "longDistance"
+  }, {
+    "code": "103",
+    "mode": "Railway Service",
+    "submode": "Inter Regional Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "interregionalRail"
+  }, {
+    "code": "104",
+    "mode": "Railway Service",
+    "submode": "Car Transport Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "carTransportRailService"
+  }, {
+    "code": "105",
+    "mode": "Railway Service",
+    "submode": "Sleeper Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "sleeperRailService"
+  }, {
+    "code": "106",
+    "mode": "Railway Service",
+    "submode": "Regional Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "regionalRail"
+  }, {
+    "code": "107",
+    "mode": "Railway Service",
+    "submode": "Tourist Railway Service",
+    "pivot": "rail",
+    "pivot-submode": "touristRailway"
+  }, {
+    "code": "108",
+    "mode": "Railway Service",
+    "submode": "Rail Shuttle (Within Complex)",
+    "pivot": "rail",
+    "pivot-submode": "railShuttle"
+  }, {
+    "code": "109",
+    "mode": "Railway Service",
+    "submode": "Suburban Railway",
+    "pivot": "rail",
+    "pivot-submode": "suburbanRailway"
+  }, {
+    "code": "110",
+    "mode": "Railway Service",
+    "submode": "Replacement Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "replacementRailService"
+  }, {
+    "code": "111",
+    "mode": "Railway Service",
+    "submode": "Special Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "specialTrain"
+  }, {
+    "code": "112",
+    "mode": "Railway Service",
+    "submode": "Lorry Transport Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "carTransportRailService"
+  }, {
+    "code": "113",
+    "mode": "Railway Service",
+    "submode": "All Rail Services",
+    "pivot": "rail",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "114",
+    "mode": "Railway Service",
+    "submode": "Cross-Country Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "intermational"
+  }, {
+    "code": "115",
+    "mode": "Railway Service",
+    "submode": "Vehicle Transport Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "carTransportRailService"
+  }, {
+    "code": "116",
+    "mode": "Railway Service",
+    "submode": "Rack and Pinion Railway",
+    "pivot": "rail",
+    "pivot-submode": "rackAndPinionRailway"
+  }, {
+    "code": "117",
+    "mode": "Railway Service",
+    "submode": "Additional Rail Service",
+    "pivot": "rail",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "200",
+    "mode": "Coach Service",
+    "submode": "unspecified",
+    "pivot": "coach",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "201",
+    "mode": "Coach Service",
+    "submode": "International Coach Service",
+    "pivot": "coach",
+    "pivot-submode": "internationalCoach"
+  }, {
+    "code": "202",
+    "mode": "Coach Service",
+    "submode": "National Coach Service",
+    "pivot": "coach",
+    "pivot-submode": "nationalCoach"
+  }, {
+    "code": "203",
+    "mode": "Coach Service",
+    "submode": "Shuttle Coach Service",
+    "pivot": "coach",
+    "pivot-submode": "shuttleCoach"
+  }, {
+    "code": "204",
+    "mode": "Coach Service",
+    "submode": "Regional Coach Service",
+    "pivot": "coach",
+    "pivot-submode": "regionalCoach"
+  }, {
+    "code": "205",
+    "mode": "Coach Service",
+    "submode": "Special Coach Service",
+    "pivot": "coach",
+    "pivot-submode": "specialCoach"
+  }, {
+    "code": "206",
+    "mode": "Coach Service",
+    "submode": "Sightseeing Coach Service",
+    "pivot": "coach",
+    "pivot-submode": "sightseeingCoach"
+  }, {
+    "code": "207",
+    "mode": "Coach Service",
+    "submode": "Tourist Coach Service",
+    "pivot": "coach",
+    "pivot-submode": "touristCoach"
+  }, {
+    "code": "208",
+    "mode": "Coach Service",
+    "submode": "Commuter Coach Service",
+    "pivot": "coach",
+    "pivot-submode": "commuterCoach"
+  }, {
+    "code": "209",
+    "mode": "Coach Service",
+    "submode": "All Coach Services",
+    "pivot": "coach",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "300",
+    "mode": "Suburban Railway Service",
+    "submode": "unspecified",
+    "pivot": "rail",
+    "pivot-submode": "suburbanRailway"
+  }, {
+    "code": "400",
+    "mode": "Urban Railway Service",
+    "submode": "unspecified",
+    "pivot": "metro",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "401",
+    "mode": "Urban Railway Service",
+    "submode": "Metro Service",
+    "pivot": "metro",
+    "pivot-submode": "metro"
+  }, {
+    "code": "402",
+    "mode": "Urban Railway Service",
+    "submode": "Underground Service",
+    "pivot": "metro",
+    "pivot-submode": "tube"
+  }, {
+    "code": "403",
+    "mode": "Urban Railway Service",
+    "submode": "Urban Railway Service",
+    "pivot": "metro",
+    "pivot-submode": "urbanRailway"
+  }, {
+    "code": "404",
+    "mode": "Urban Railway Service",
+    "submode": "All Urban Railway Services",
+    "pivot": "metro",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "405",
+    "mode": "Urban Railway Service",
+    "submode": "Monorail",
+    "pivot": "metro",
+    "pivot-submode": "monorail"
+  }, {
+    "code": "500",
+    "mode": "Metro Service",
+    "submode": "unspecified",
+    "pivot": "metro",
+    "pivot-submode": "metro"
+  }, {
+    "code": "600",
+    "mode": "Underground Service",
+    "submode": "unspecified",
+    "pivot": "metro",
+    "pivot-submode": "tube"
+  }, {
+    "code": "700",
+    "mode": "BusService",
+    "submode": "unspecified",
+    "pivot": "bus",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "701",
+    "mode": "BusService",
+    "submode": "Regional Bus Service",
+    "pivot": "bus",
+    "pivot-submode": "regionalBus"
+  }, {
+    "code": "702",
+    "mode": "BusService",
+    "submode": "Express Bus Service",
+    "pivot": "bus",
+    "pivot-submode": "expressBus"
+  }, {
+    "code": "703",
+    "mode": "BusService",
+    "submode": "StoppingBusService",
+    "pivot": "bus",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "704",
+    "mode": "BusService",
+    "submode": "Local Bus Service",
+    "pivot": "bus",
+    "pivot-submode": "localBus"
+  }, {
+    "code": "705",
+    "mode": "BusService",
+    "submode": "Night Bus Service",
+    "pivot": "bus",
+    "pivot-submode": "nightBus"
+  }, {
+    "code": "706",
+    "mode": "BusService",
+    "submode": "Post Bus Service",
+    "pivot": "bus",
+    "pivot-submode": "postBus"
+  }, {
+    "code": "707",
+    "mode": "BusService",
+    "submode": "Special Needs Bus",
+    "pivot": "bus",
+    "pivot-submode": "specialNeedsBus"
+  }, {
+    "code": "708",
+    "mode": "BusService",
+    "submode": "Mobility Bus Service",
+    "pivot": "bus",
+    "pivot-submode": "mobilityBus"
+  }, {
+    "code": "709",
+    "mode": "BusService",
+    "submode": "Mobility Bus for Registered Disabled",
+    "pivot": "bus",
+    "pivot-submode": "mobilityBusForRegisteredDisabled"
+  }, {
+    "code": "710",
+    "mode": "BusService",
+    "submode": "Sightseeing Bus",
+    "pivot": "bus",
+    "pivot-submode": "sightseeingBus"
+  }, {
+    "code": "711",
+    "mode": "BusService",
+    "submode": "Shuttle Bus",
+    "pivot": "bus",
+    "pivot-submode": "shuttleBus"
+  }, {
+    "code": "712",
+    "mode": "BusService",
+    "submode": "School Bus",
+    "pivot": "bus",
+    "pivot-submode": "schoolBus"
+  }, {
+    "code": "713",
+    "mode": "BusService",
+    "submode": "School and Public Service Bus",
+    "pivot": "bus",
+    "pivot-submode": "schoolAndPublicServiceBus"
+  }, {
+    "code": "714",
+    "mode": "BusService",
+    "submode": "Rail Replacement Bus Service",
+    "pivot": "bus",
+    "pivot-submode": "railReplacementBus"
+  }, {
+    "code": "715",
+    "mode": "BusService",
+    "submode": "Demand and Response Bus Service",
+    "pivot": "bus",
+    "pivot-submode": "demandAndResponseBus"
+  }, {
+    "code": "716",
+    "mode": "BusService",
+    "submode": "All Bus Services",
+    "pivot": "bus",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "800",
+    "mode": "Trolleybus Service",
+    "submode": "unspecified",
+    "pivot": "trolleyBus",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "900",
+    "mode": "Tram Service",
+    "submode": "unspecified",
+    "pivot": "tram",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "901",
+    "mode": "Tram Service",
+    "submode": "City Tram Service",
+    "pivot": "tram",
+    "pivot-submode": "cityTram"
+  }, {
+    "code": "902",
+    "mode": "Tram Service",
+    "submode": "Local Tram Service",
+    "pivot": "tram",
+    "pivot-submode": "localTram"
+  }, {
+    "code": "903",
+    "mode": "Tram Service",
+    "submode": "Regional Tram Service",
+    "pivot": "tram",
+    "pivot-submode": "regionalTram"
+  }, {
+    "code": "904",
+    "mode": "Tram Service",
+    "submode": "Sightseeing Tram Service",
+    "pivot": "tram",
+    "pivot-submode": "sightseeingTram"
+  }, {
+    "code": "905",
+    "mode": "Tram Service",
+    "submode": "Shuttle Tram Service",
+    "pivot": "tram",
+    "pivot-submode": "shuttleTram"
+  }, {
+    "code": "906",
+    "mode": "Tram Service",
+    "submode": "All Tram Services",
+    "pivot": "tram",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "1000",
+    "mode": "Water Transport Service",
+    "submode": "unspecified",
+    "pivot": "water",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1001",
+    "mode": "Water Transport Service",
+    "submode": "International Car Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "internationalCarFerry"
+  }, {
+    "code": "1002",
+    "mode": "Water Transport Service",
+    "submode": "National Car Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "nationalCarFerry"
+  }, {
+    "code": "1003",
+    "mode": "Water Transport Service",
+    "submode": "Regional Car Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "regionalCarFerry"
+  }, {
+    "code": "1004",
+    "mode": "Water Transport Service",
+    "submode": "Local Car Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "localCarFerry"
+  }, {
+    "code": "1005",
+    "mode": "Water Transport Service",
+    "submode": "International Passenger Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "internationalPassengerFerry"
+  }, {
+    "code": "1006",
+    "mode": "Water Transport Service",
+    "submode": "National Passenger Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "nationalPassengerFerry"
+  }, {
+    "code": "1007",
+    "mode": "Water Transport Service",
+    "submode": "Regional Passenger Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "regionalPassengerFerry"
+  }, {
+    "code": "1008",
+    "mode": "Water Transport Service",
+    "submode": "Local Passenger Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "localPassengerFerry"
+  }, {
+    "code": "1009",
+    "mode": "Water Transport Service",
+    "submode": "Post Boat Service",
+    "pivot": "water",
+    "pivot-submode": "postBoat"
+  }, {
+    "code": "1010",
+    "mode": "Water Transport Service",
+    "submode": "Train Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "trainFerry"
+  }, {
+    "code": "1011",
+    "mode": "Water Transport Service",
+    "submode": "Road-Link Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "roadFerryLink"
+  }, {
+    "code": "1012",
+    "mode": "Water Transport Service",
+    "submode": "Airport-Link Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "airportBoatLink"
+  }, {
+    "code": "1013",
+    "mode": "Water Transport Service",
+    "submode": "Car High-Speed Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "highSpeedVehicleService"
+  }, {
+    "code": "1014",
+    "mode": "Water Transport Service",
+    "submode": "Passenger High-Speed Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "highSpeedPassengerService"
+  }, {
+    "code": "1015",
+    "mode": "Water Transport Service",
+    "submode": "Sightseeing Boat Service",
+    "pivot": "water",
+    "pivot-submode": "sightseeingService"
+  }, {
+    "code": "1016",
+    "mode": "Water Transport Service",
+    "submode": "School Boat",
+    "pivot": "water",
+    "pivot-submode": "schoolBoat"
+  }, {
+    "code": "1017",
+    "mode": "Water Transport Service",
+    "submode": "Cable-Drawn Boat Service",
+    "pivot": "water",
+    "pivot-submode": "cableFerry"
+  }, {
+    "code": "1018",
+    "mode": "Water Transport Service",
+    "submode": "River Bus Service",
+    "pivot": "water",
+    "pivot-submode": "riverBus"
+  }, {
+    "code": "1019",
+    "mode": "Water Transport Service",
+    "submode": "Scheduled Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "scheduledFerry"
+  }, {
+    "code": "1020",
+    "mode": "Water Transport Service",
+    "submode": "Shuttle Ferry Service",
+    "pivot": "water",
+    "pivot-submode": "shuttleFerryService"
+  }, {
+    "code": "1021",
+    "mode": "Water Transport Service",
+    "submode": "All Water Transport Services",
+    "pivot": "water",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "1100",
+    "mode": "Air Service",
+    "submode": "unspecified",
+    "pivot": "air",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1101",
+    "mode": "Air Service",
+    "submode": "International Air Service",
+    "pivot": "air",
+    "pivot-submode": "internationalFlight"
+  }, {
+    "code": "1102",
+    "mode": "Air Service",
+    "submode": "Domestic Air Service",
+    "pivot": "air",
+    "pivot-submode": "domesticFlight"
+  }, {
+    "code": "1103",
+    "mode": "Air Service",
+    "submode": "Intercontinental Air Service",
+    "pivot": "air",
+    "pivot-submode": "intercontinentalFlight"
+  }, {
+    "code": "1104",
+    "mode": "Air Service",
+    "submode": "Domestic Scheduled Air Service",
+    "pivot": "air",
+    "pivot-submode": "domesticScheduledFlight"
+  }, {
+    "code": "1105",
+    "mode": "Air Service",
+    "submode": "Shuttle Air Service",
+    "pivot": "air",
+    "pivot-submode": "shuttleFlight"
+  }, {
+    "code": "1106",
+    "mode": "Air Service",
+    "submode": "Intercontinental Charter Air Service",
+    "pivot": "air",
+    "pivot-submode": "intercontinentalCharterFlight"
+  }, {
+    "code": "1107",
+    "mode": "Air Service",
+    "submode": "International Charter Air Service",
+    "pivot": "air",
+    "pivot-submode": "internationalCharterFlight"
+  }, {
+    "code": "1108",
+    "mode": "Air Service",
+    "submode": "Round-Trip Charter Air Service",
+    "pivot": "air",
+    "pivot-submode": "roundTripCharterFlight"
+  }, {
+    "code": "1109",
+    "mode": "Air Service",
+    "submode": "Sightseeing Air Service",
+    "pivot": "air",
+    "pivot-submode": "sightseeingFlight"
+  }, {
+    "code": "1110",
+    "mode": "Air Service",
+    "submode": "Helicopter Air Service",
+    "pivot": "air",
+    "pivot-submode": "helicopterService"
+  }, {
+    "code": "1111",
+    "mode": "Air Service",
+    "submode": "Domestic Charter Air Service",
+    "pivot": "air",
+    "pivot-submode": "domesticCharterFlight"
+  }, {
+    "code": "1112",
+    "mode": "Air Service",
+    "submode": "Schengen-Area Air Service",
+    "pivot": "air",
+    "pivot-submode": "SchengenAreaFlight"
+  }, {
+    "code": "1113",
+    "mode": "Air Service",
+    "submode": "Airship Service",
+    "pivot": "air",
+    "pivot-submode": "airshipService"
+  }, {
+    "code": "1114",
+    "mode": "Air Service",
+    "submode": "All Air Services",
+    "pivot": "air",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "1200",
+    "mode": "Ferry Service",
+    "submode": "unspecified",
+    "pivot": "ferry",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1300",
+    "mode": "Telecabin Service",
+    "submode": "unspecified",
+    "pivot": "cableway",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1301",
+    "mode": "Telecabin Service",
+    "submode": "Telecabin Service",
+    "pivot": "cableway",
+    "pivot-submode": "telecabin"
+  }, {
+    "code": "1302",
+    "mode": "Telecabin Service",
+    "submode": "Cable Car Service",
+    "pivot": "cableway",
+    "pivot-submode": "cableCar"
+  }, {
+    "code": "1303",
+    "mode": "Telecabin Service",
+    "submode": "Elevator Service",
+    "pivot": "cableway",
+    "pivot-submode": "lift"
+  }, {
+    "code": "1304",
+    "mode": "Telecabin Service",
+    "submode": "Chair Lift Service",
+    "pivot": "cableway",
+    "pivot-submode": "chairLift"
+  }, {
+    "code": "1305",
+    "mode": "Telecabin Service",
+    "submode": "Drag Lift Service",
+    "pivot": "cableway",
+    "pivot-submode": "dragLift"
+  }, {
+    "code": "1306",
+    "mode": "Telecabin Service",
+    "submode": "Small Telecabin Service",
+    "pivot": "cableway",
+    "pivot-submode": "telecabinLink"
+  }, {
+    "code": "1307",
+    "mode": "Telecabin Service",
+    "submode": "All Telecabin Services",
+    "pivot": "cableway",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "1400",
+    "mode": "Funicular Service",
+    "submode": "unspecified",
+    "pivot": "funicular",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1401",
+    "mode": "Funicular Service",
+    "submode": "Funicular Service",
+    "pivot": "funicular",
+    "pivot-submode": "funicular"
+  }, {
+    "code": "1402",
+    "mode": "Funicular Service",
+    "submode": "All Funicular Service",
+    "pivot": "funicular",
+    "pivot-submode": "undefined"
+  }, {
+    "code": "1500",
+    "mode": "Taxi Service",
+    "submode": "unspecified",
+    "pivot": "Taxi",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1501",
+    "mode": "Taxi Service",
+    "submode": "Communal Taxi Service",
+    "pivot": "Taxi",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1502",
+    "mode": "Taxi Service",
+    "submode": "Water Taxi Service",
+    "pivot": "Taxi",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1503",
+    "mode": "Taxi Service",
+    "submode": "Rail Taxi Service",
+    "pivot": "Taxi",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1504",
+    "mode": "Taxi Service",
+    "submode": "Bike Taxi Service",
+    "pivot": "Taxi",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1505",
+    "mode": "Taxi Service",
+    "submode": "Licensed Taxi Service",
+    "pivot": "Taxi",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1506",
+    "mode": "Taxi Service",
+    "submode": "Private Hire Service Vehicle",
+    "pivot": "Taxi",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1507",
+    "mode": "Taxi Service",
+    "submode": "All Taxi Services",
+    "pivot": "Taxi",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1600",
+    "mode": "Self Drive",
+    "submode": "unspecified",
+    "pivot": "other",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1601",
+    "mode": "Self Drive",
+    "submode": "Hire Car",
+    "pivot": "other",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1602",
+    "mode": "Self Drive",
+    "submode": "Hire Van",
+    "pivot": "other",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1603",
+    "mode": "Self Drive",
+    "submode": "Hire Motorbike",
+    "pivot": "other",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1604",
+    "mode": "Self Drive",
+    "submode": "Hire Cycle",
+    "pivot": "other",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1700",
+    "mode": "Miscellaneous Service",
+    "submode": "unspecified",
+    "pivot": "other",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1701",
+    "mode": "Miscellaneous Service",
+    "submode": "Cable Car",
+    "pivot": "cableway",
+    "pivot-submode": "cableCar"
+  }, {
+    "code": "1702",
+    "mode": "Miscellaneous Service",
+    "submode": "Horse-drawn Carriage",
+    "pivot": "other",
+    "pivot-submode": "horseDrawn"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "code": "0",
+    "mode": "Tram, Streetcar, Light rail",
+    "submode": "Undefined",
+    "pivot": "tram",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "1",
+    "mode": "Subway, Metro",
+    "submode": "Undefined",
+    "pivot": "metro",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "2",
+    "mode": "Rail",
+    "submode": "Undefined",
+    "pivot": "rail",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "3",
+    "mode": "Bus",
+    "submode": "Undefined",
+    "pivot": "bus",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "4",
+    "mode": "Ferry",
+    "submode": "Undefined",
+    "pivot": "ferry",
+    "pivot-submode": "unspecified"
+  }, {
+    "code": "5",
+    "mode": "Cable car",
+    "submode": "Undefined",
+    "pivot": "cableway",
+    "pivot-submode": "cableCar"
+  }, {
+    "code": "6",
+    "mode": "Gondola, Suspended cable car",
+    "submode": "Undefined",
+    "pivot": "cableway",
+    "pivot-submode": "telecabin"
+  }, {
+    "code": "7",
+    "mode": "Funicular",
+    "submode": "Undefined",
+    "pivot": "funicular",
+    "pivot-submode": "unspecified"
+  }
+]
