@@ -88,7 +88,7 @@
     "mode": "air",
     "submode": "canalBarge",
     "pivot": "air",
-    "pivot-submode": "canalBarge,Quid" 
+    "pivot-submode": "canalBarge" 
   }, {
     "mode": "bus",
     "submode": "unspecified",
