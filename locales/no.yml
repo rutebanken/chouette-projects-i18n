@@ -30,6 +30,7 @@
       1-GTFS-Route-2: 
       1-NEPTUNE-XML-1: 
       1-NEPTUNE-XML-2: 
+      1-NETEXPROFILE-UnknownProfile: 
       2-DATABASE-AccessPoint-1: 
       2-DATABASE-ConnectionLink-1: 
       2-DATABASE-JourneyPattern-1: 
@@ -532,7 +533,7 @@
       timetable: 
       timetables: 
       transport_datas: 
-    download: 
+    download: Last ned
     download_by:
       files: 
       tests: 

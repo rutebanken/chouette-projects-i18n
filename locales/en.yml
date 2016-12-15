@@ -30,6 +30,7 @@ en:
       1-GTFS-Route-2: Presence of data for route_short_name or else route_long_name
       1-NEPTUNE-XML-1: Syntaxe XML W3C
       1-NEPTUNE-XML-2: Schéma défini par la XSD du profil TRIDENT/NEPTUNE
+      1-NETEXPROFILE-UnknownProfile: Unknown NeTEx profile
       2-DATABASE-AccessPoint-1: Contrôle de la valeur d’un arrêt associé lors de la sauvegarde d’un point d’accès en base
       2-DATABASE-ConnectionLink-1: Contrôle de la valeur des extrémités d’une correspondance lors de sa sauvegarde en base
       2-DATABASE-JourneyPattern-1: Contrôle de la valeur de la route associée lors de la sauvegarde d’une mission commerciale en base
@@ -483,8 +484,8 @@ en:
       error_txt: Error
       ignored: Ignored
       ignored_txt: Ignored
-      none: 
-      none_txt: 
+      none: Absent
+      none_txt: Absent
       ok: Ok
       ok_txt: Ok
       success: Success
@@ -517,27 +518,27 @@ en:
       unreadable_parameters: Unreadable parameters (wrong format)
   report:
     default_view:
-      access_point: 
-      access_points: 
-      companies: 
-      company: 
-      connection_link: 
-      connection_links: 
+      access_point: Access point
+      access_points: Access points
+      companies: Operators
+      company: Operator
+      connection_link: Connection link
+      connection_links: Connection links
       files: Files
-      line: 
-      lines: 
-      network: 
-      networks: 
-      stop_area: 
-      stop_areas: 
+      line: Line
+      lines: Lines
+      network: Network
+      networks: Networks
+      stop_area: Stop area
+      stop_areas: Stop areas
       tests: Tests
-      tests-1-2-error: 
-      tests-1-2-warning: 
-      tests-3-4-error: 
-      tests-3-4-warning: 
-      timetable: 
-      timetables: 
-      transport_datas: Transport datas
+      tests-1-2-error: Validation tests required to be compliant with data format
+      tests-1-2-warning: Validation tests recommended to be compliant with data format
+      tests-3-4-error: Additional required validations test for data quality
+      tests-3-4-warning: Additional recommended validations test for data quality
+      timetable: Timetable
+      timetables: Timetables
+      transport_datas: Transport data
     download: Download
     download_by:
       files: 
@@ -551,9 +552,9 @@ en:
       warning_txt: Warning
     search_form:
       label:
-        search: 
+        search: Search for tests
         state: 
-      submit: 
+      submit: Filter
     total_results:
       files: 
       synthesis:

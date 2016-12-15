@@ -30,6 +30,7 @@ fr:
       1-GTFS-Route-2: Donnée renseignée pour route_short_name ou sinon route_long_name
       1-NEPTUNE-XML-1: Syntaxe XML W3C
       1-NEPTUNE-XML-2: Schéma défini par la XSD du profil TRIDENT/NEPTUNE
+      1-NETEXPROFILE-UnknownProfile: 
       2-DATABASE-AccessPoint-1: Contrôle de la valeur d’un arrêt associé lors de la sauvegarde d’un point d’accès en base
       2-DATABASE-ConnectionLink-1: Contrôle de la valeur des extrémités d’une correspondance lors de sa sauvegarde en base
       2-DATABASE-JourneyPattern-1: Contrôle de la valeur de la route associée lors de la sauvegarde d’une mission commerciale en base
