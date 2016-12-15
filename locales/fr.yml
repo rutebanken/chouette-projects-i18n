@@ -30,7 +30,15 @@ fr:
       1-GTFS-Route-2: Donnée renseignée pour route_short_name ou sinon route_long_name
       1-NEPTUNE-XML-1: Syntaxe XML W3C
       1-NEPTUNE-XML-2: Schéma défini par la XSD du profil TRIDENT/NEPTUNE
+      1-NETEXPROFILE-DuplicateIdentificatorsAcrossLineAndCommonFiles: 
+      1-NETEXPROFILE-DuplicateIdentificatorsAcrossLineFiles: 
+      1-NETEXPROFILE-InvalidIdStructure: 
+      1-NETEXPROFILE-MissingReferenceVersionAttribute: 
+      1-NETEXPROFILE-MissingVersionAttribute: 
+      1-NETEXPROFILE-UnapprovedCodespaceDefined: 
       1-NETEXPROFILE-UnknownProfile: 
+      1-NETEXPROFILE-UnresolvedReferenceToCommonElements: 
+      1-NETEXPROFILE-UseOfUnapprovedCodespace: 
       2-DATABASE-AccessPoint-1: Contrôle de la valeur d’un arrêt associé lors de la sauvegarde d’un point d’accès en base
       2-DATABASE-ConnectionLink-1: Contrôle de la valeur des extrémités d’une correspondance lors de sa sauvegarde en base
       2-DATABASE-JourneyPattern-1: Contrôle de la valeur de la route associée lors de la sauvegarde d’une mission commerciale en base
@@ -220,6 +228,15 @@ fr:
       detail_1_gtfs_route_2: les valeurs des champs route_long_name et route_short_name ne sont pas renseignées
       detail_1_neptune_xml_1: "%{source_label} : %{error_value}"
       detail_1_neptune_xml_2: "%{source_label} : %{error_value}"
+      detail_1_netexprofile_duplicateidentificatorsacrosslineandcommonfiles: 
+      detail_1_netexprofile_duplicateidentificatorsacrosslinefiles: 
+      detail_1_netexprofile_invalididstructure: 
+      detail_1_netexprofile_missingreferenceversionattribute: 
+      detail_1_netexprofile_missingversionattribute: 
+      detail_1_netexprofile_unapprovedcodespacedefined: 
+      detail_1_netexprofile_unknownprofile: 
+      detail_1_netexprofile_unresolvedreferencetocommonelements: 
+      detail_1_netexprofile_useofunapprovedcodespace: 
       detail_1_regtopp_concistency_1: 
       detail_1_regtopp_concistency_2: 
       detail_1_regtopp_field_value_1: 

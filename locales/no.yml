@@ -30,7 +30,15 @@
       1-GTFS-Route-2: 
       1-NEPTUNE-XML-1: 
       1-NEPTUNE-XML-2: 
+      1-NETEXPROFILE-DuplicateIdentificatorsAcrossLineAndCommonFiles: 
+      1-NETEXPROFILE-DuplicateIdentificatorsAcrossLineFiles: 
+      1-NETEXPROFILE-InvalidIdStructure: 
+      1-NETEXPROFILE-MissingReferenceVersionAttribute: 
+      1-NETEXPROFILE-MissingVersionAttribute: 
+      1-NETEXPROFILE-UnapprovedCodespaceDefined: 
       1-NETEXPROFILE-UnknownProfile: 
+      1-NETEXPROFILE-UnresolvedReferenceToCommonElements: 
+      1-NETEXPROFILE-UseOfUnapprovedCodespace: 
       2-DATABASE-AccessPoint-1: 
       2-DATABASE-ConnectionLink-1: 
       2-DATABASE-JourneyPattern-1: 
@@ -220,6 +228,15 @@
       detail_1_gtfs_route_2: 
       detail_1_neptune_xml_1: 
       detail_1_neptune_xml_2: 
+      detail_1_netexprofile_duplicateidentificatorsacrosslineandcommonfiles: 
+      detail_1_netexprofile_duplicateidentificatorsacrosslinefiles: 
+      detail_1_netexprofile_invalididstructure: 
+      detail_1_netexprofile_missingreferenceversionattribute: 
+      detail_1_netexprofile_missingversionattribute: 
+      detail_1_netexprofile_unapprovedcodespacedefined: 
+      detail_1_netexprofile_unknownprofile: 
+      detail_1_netexprofile_unresolvedreferencetocommonelements: 
+      detail_1_netexprofile_useofunapprovedcodespace: 
       detail_1_regtopp_concistency_1: 
       detail_1_regtopp_concistency_2: 
       detail_1_regtopp_field_value_1: 
