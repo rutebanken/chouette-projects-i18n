@@ -31,7 +31,7 @@ en:
       1-NEPTUNE-XML-1: Syntaxe XML W3C
       1-NEPTUNE-XML-2: Schéma défini par la XSD du profil TRIDENT/NEPTUNE
       1-NETEXPROFILE-DuplicateIdentificatorsAcrossLineAndCommonFiles: Duplicate element identifiers across line and common files
-      1-NETEXPROFILE-DuplicateIdentificatorsAcrossLineFiles: Duplicate lement identifiers across more than one line file
+      1-NETEXPROFILE-DuplicateIdentificatorsAcrossLineFiles: Duplicate element identifiers across more than one line file
       1-NETEXPROFILE-InvalidIdStructure: Invalid id structure on element
       1-NETEXPROFILE-MissingReferenceVersionAttribute: Missing version attribute on reference to local elements
       1-NETEXPROFILE-MissingVersionAttribute: Missing version attribute on elements with id attribute
@@ -573,6 +573,7 @@ en:
         state: 
       submit: Filter
     total_results:
+      count_more: more
       files: 
       synthesis:
         access_point: 

@@ -573,6 +573,7 @@ fr:
         state: État
       submit: Filtrer
     total_results:
+      count_more: de plus
       files:
         one: Détails du fichier
         other: Détails des %{count} fichiers
