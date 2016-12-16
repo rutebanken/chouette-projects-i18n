@@ -573,11 +573,18 @@ fr:
         state: État
       submit: Filtrer
     total_results:
+      compliant: Conforme
       count_more: de plus
+      failure: Échec
       files:
         one: Détails du fichier
         other: Détails des %{count} fichiers
         zero: Aucun fichier
+      ignored: Ignoré
+      not_compliant: Non conforme
+      number_of: Nombre de
+      show_all: Afficher toutes les données de transport
+      success: Succès
       synthesis:
         access_point:
           one: Synthèse de l'accès
@@ -611,6 +618,7 @@ fr:
         one: Détails du test
         other: Détails des %{count} tests
         zero: Aucun test
+      transport_data_category: Synthèse par données de transport
       transport_datas:
         one: Détails de la donnée de transport
         other: Détails des %{count} données de transport

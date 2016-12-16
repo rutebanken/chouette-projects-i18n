@@ -567,8 +567,15 @@
         state: 
       submit: 
     total_results:
+      compliant: 
       count_more: flere
+      failure: 
       files: 
+      ignored: 
+      not_compliant: 
+      number_of: 
+      show_all: 
+      success: 
       synthesis:
         access_point: 
         company: 
@@ -578,4 +585,5 @@
         stop_area: 
         timetable: 
       tests: 
+      transport_data_category: Data-kategori
       transport_datas: 

@@ -573,8 +573,15 @@ en:
         state: 
       submit: Filter
     total_results:
+      compliant: Compliant
       count_more: more
+      failure: Failure
       files: 
+      ignored: Ignored
+      not_compliant: Not compliant
+      number_of: Number of
+      show_all: Show all transport data
+      success: Success
       synthesis:
         access_point: 
         company: 
@@ -584,4 +591,5 @@ en:
         stop_area: 
         timetable: 
       tests: 
+      transport_data_category: Transport data category
       transport_datas: 
