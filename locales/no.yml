@@ -228,12 +228,23 @@
       detail_1_gtfs_route_2: 
       detail_1_neptune_xml_1: 
       detail_1_neptune_xml_2: 
+      detail_1_netexprofile_compositeframe_codespace: 
+      detail_1_netexprofile_compositeframe_validityconditions: 
       detail_1_netexprofile_duplicateidentificatorsacrosslineandcommonfiles: 
       detail_1_netexprofile_duplicateidentificatorsacrosslinefiles: 
       detail_1_netexprofile_invalididstructure: 
       detail_1_netexprofile_missingreferenceversionattribute: 
       detail_1_netexprofile_missingversionattribute: 
+      detail_1_netexprofile_resourceframe_organisations_authority_companynumber: 
+      detail_1_netexprofile_resourceframe_organisations_authority_contactdetails: 
+      detail_1_netexprofile_resourceframe_organisations_authority_legalname: 
+      detail_1_netexprofile_resourceframe_organisations_operator_companynumber: 
+      detail_1_netexprofile_resourceframe_organisations_operator_contactdetails: 
+      detail_1_netexprofile_resourceframe_organisations_operator_customerservicecontactdetails: 
+      detail_1_netexprofile_resourceframe_organisations_operator_legalname: 
       detail_1_netexprofile_schemavalidationerror: 
+      detail_1_netexprofile_serviceframe_network: 
+      detail_1_netexprofile_serviceframe_servicejourneypattern: 
       detail_1_netexprofile_unapprovedcodespacedefined: 
       detail_1_netexprofile_unknownprofile: 
       detail_1_netexprofile_unresolvedreferencetocommonelements: 
