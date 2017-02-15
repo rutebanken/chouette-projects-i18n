@@ -233,6 +233,7 @@
       detail_1_netexprofile_invalididstructure: 
       detail_1_netexprofile_missingreferenceversionattribute: 
       detail_1_netexprofile_missingversionattribute: 
+      detail_1_netexprofile_schemavalidationerror: 
       detail_1_netexprofile_unapprovedcodespacedefined: 
       detail_1_netexprofile_unknownprofile: 
       detail_1_netexprofile_unresolvedreferencetocommonelements: 
