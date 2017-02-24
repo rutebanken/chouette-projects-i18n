@@ -235,6 +235,7 @@ en:
       detail_1_netexprofile_invalididstructure: Invalid id structure on element %{error_value}
       detail_1_netexprofile_missingreferenceversionattribute: Element (reference) %{error_value} is missing the version attribute
       detail_1_netexprofile_missingversionattribute: Element (reference) %{error_value} is missing the version attribute
+      detail_1_netexprofile_referencetoillegalelement: Element (reference) %{reference_value} references illegal element %{error_value}
       detail_1_netexprofile_resourceframe_organisations_authority_companynumber: Missing CompanyNumber element on Authority
       detail_1_netexprofile_resourceframe_organisations_authority_contactdetails: Missing ContactDetails on Authority
       detail_1_netexprofile_resourceframe_organisations_authority_legalname: Missing LegalName element on Authority
