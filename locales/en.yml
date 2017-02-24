@@ -233,6 +233,7 @@ en:
       detail_1_netexprofile_duplicateidentificatorsacrosslineandcommonfiles: Element id %{error_value} have already been defined in a common file and cannot be reused in a line file
       detail_1_netexprofile_duplicateidentificatorsacrosslinefiles: Element id %{error_value} have already been defined in a previous line file
       detail_1_netexprofile_invalididstructure: Invalid id structure on element %{error_value}
+      detail_1_netexprofile_invalididstructurename: Invalid structure on id %{error_value}. Expected %{reference_value}
       detail_1_netexprofile_missingreferenceversionattribute: Element (reference) %{error_value} is missing the version attribute
       detail_1_netexprofile_missingversionattribute: Element (reference) %{error_value} is missing the version attribute
       detail_1_netexprofile_referencetoillegalelement: Element (reference) to %{error_value} is not allowed from element %{reference_value}. Generally an element named XXXXRef may only reference elements if type XXXX

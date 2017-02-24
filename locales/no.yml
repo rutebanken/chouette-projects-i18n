@@ -233,6 +233,7 @@
       detail_1_netexprofile_duplicateidentificatorsacrosslineandcommonfiles: 
       detail_1_netexprofile_duplicateidentificatorsacrosslinefiles: 
       detail_1_netexprofile_invalididstructure: 
+      detail_1_netexprofile_invalididstructurename: 
       detail_1_netexprofile_missingreferenceversionattribute: 
       detail_1_netexprofile_missingversionattribute: 
       detail_1_netexprofile_referencetoillegalelement: 
