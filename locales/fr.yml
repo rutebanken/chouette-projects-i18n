@@ -248,6 +248,9 @@ fr:
       detail_1_netexprofile_serviceframe_network: 
       detail_1_netexprofile_serviceframe_network_name: 
       detail_1_netexprofile_serviceframe_servicejourneypattern: 
+      detail_1_netexprofile_siteframe: 
+      detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_departuretime: 
+      detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_same_value: 
       detail_1_netexprofile_unapprovedcodespacedefined: 
       detail_1_netexprofile_unknownprofile: 
       detail_1_netexprofile_unresolvedreferencetocommonelements: 
