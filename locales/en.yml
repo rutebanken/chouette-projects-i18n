@@ -39,6 +39,9 @@ en:
       1-NETEXPROFILE-UnknownProfile: Unknown NeTEx profile
       1-NETEXPROFILE-UnresolvedReferenceToCommonElements: Unresolved reference to elements in common files
       1-NETEXPROFILE-UseOfUnapprovedCodespace: Use of unapproved codespace
+      1-NETEXPROFILE-ServiceFrame-Line-PublicCode: Missing PublicCode on Line
+      1-NETEXPROFILE-SchemaValidationError: XML Schema validation error
+      1-NETEXPROFILE-TimetableFrame_ServiceJourney_TimetabledPassingTime_Same_Value: ArrivalTime is identical to DepartureTime
       2-DATABASE-AccessPoint-1: Contrôle de la valeur d’un arrêt associé lors de la sauvegarde d’un point d’accès en base
       2-DATABASE-ConnectionLink-1: Contrôle de la valeur des extrémités d’une correspondance lors de sa sauvegarde en base
       2-DATABASE-JourneyPattern-1: Contrôle de la valeur de la route associée lors de la sauvegarde d’une mission commerciale en base
@@ -255,6 +258,8 @@ en:
       detail_1_netexprofile_unknownprofile: Unknown NeTEx profile ‰{error_value}
       detail_1_netexprofile_unresolvedreferencetocommonelements: Unresolved reference %{error_value} to elements in common files
       detail_1_netexprofile_useofunapprovedcodespace: Id %{error_value} is using an undeclared codespace xmlns
+      detail_1_netexprofile_serviceframe_line_publiccode: Missing PublicCode on Line
+      detail_1_netexprofile_serviceframe_line_groupoflinesnetwork: A Line must refer to a GroupOfLines or a Network through element RepresentedByGroupRef
       detail_1_regtopp_concistency_1: "%{reference_value}"
       detail_1_regtopp_concistency_2: "%{reference_value}"
       detail_1_regtopp_field_value_1: "%{reference_value}"
@@ -576,9 +581,9 @@ en:
       transport_datas: Transport data
     download: Download
     download_by:
-      files: 
-      tests: 
-      transport_datas: 
+      files:
+      tests:
+      transport_datas:
     icons:
       error_txt: Error
       ignored_txt: Ignored
@@ -588,26 +593,26 @@ en:
     search_form:
       label:
         search: Search
-        state: 
+        state:
       submit: Filter
     total_results:
       compliant: Compliant
       count_more: more
       failure: Failure
-      files: 
+      files:
       ignored: Ignored
       not_compliant: Not compliant
       number_of: Number of
       show_all: Show all transport data
       success: Success
       synthesis:
-        access_point: 
-        company: 
-        connection_link: 
-        line: 
-        network: 
-        stop_area: 
-        timetable: 
-      tests: 
+        access_point:
+        company:
+        connection_link:
+        line:
+        network:
+        stop_area:
+        timetable:
+      tests:
       transport_data_category: Transport data category
-      transport_datas: 
+      transport_datas:
