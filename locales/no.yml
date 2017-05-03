@@ -35,6 +35,9 @@
       1-NETEXPROFILE-InvalidIdStructure: 
       1-NETEXPROFILE-MissingReferenceVersionAttribute: 
       1-NETEXPROFILE-MissingVersionAttribute: 
+      1-NETEXPROFILE-SchemaValidationError: 
+      1-NETEXPROFILE-ServiceFrame-Line-PublicCode: 
+      1-NETEXPROFILE-TimetableFrame_ServiceJourney_TimetabledPassingTime_Same_Value: 
       1-NETEXPROFILE-UnapprovedCodespaceDefined: 
       1-NETEXPROFILE-UnknownProfile: 
       1-NETEXPROFILE-UnresolvedReferenceToCommonElements: 
@@ -245,6 +248,8 @@
       detail_1_netexprofile_resourceframe_organisations_operator_customerservicecontactdetails: 
       detail_1_netexprofile_resourceframe_organisations_operator_legalname: 
       detail_1_netexprofile_schemavalidationerror: 
+      detail_1_netexprofile_serviceframe_line_groupoflinesnetwork: 
+      detail_1_netexprofile_serviceframe_line_publiccode: 
       detail_1_netexprofile_serviceframe_network: 
       detail_1_netexprofile_serviceframe_network_name: 
       detail_1_netexprofile_serviceframe_servicejourneypattern: 
