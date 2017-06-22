@@ -249,14 +249,17 @@ en:
       detail_1_netexprofile_resourceframe_organisations_operator_legalname: Missing LegalName element on Operator
       detail_1_netexprofile_schemavalidationerror: 'XML Schema validation error: %{error_value}'
       detail_1_netexprofile_serviceframe_journeypattern_passengerstopassignment_quayref: Reference to Quay %{source_objectid} not found in stop registry
+      detail_1_netexprofile_serviceframe_line: There should be exactly 1 Line pr file
       detail_1_netexprofile_serviceframe_line_groupoflinesnetwork: A Line must refer to a GroupOfLines or a Network through element RepresentedByGroupRef
       detail_1_netexprofile_serviceframe_line_publiccode: Missing PublicCode on Line
       detail_1_netexprofile_serviceframe_network: Missing Network element in ServiceFrame
       detail_1_netexprofile_serviceframe_network_name: Missing Name element on Network
+      detail_1_netexprofile_serviceframe_line_operatorref: Missing OperatorRef on Line
       detail_1_netexprofile_serviceframe_servicejourneypattern: Use JourneyPattern instead of ServiceJourneyPattern
       detail_1_netexprofile_siteframe: Unexpected element SiteFrame. SiteFrame content ignored
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_departuretime: All TimetabledPassingTime except last call must have DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_same_value: ArrivalTime is identical to DepartureTime
+      detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_last_arrivaltime: Last TimetabledPassingTime must have ArrivalTime
       detail_1_netexprofile_unapprovedcodespacedefined: Codespace %{error_value} is not in the list of valid codespaces for this data space. Valid codespaces are %{reference_value}
       detail_1_netexprofile_unknownprofile: Unknown NeTEx profile %{error_value}
       detail_1_netexprofile_unresolvedexternalreference: Unresolved reference %{error_value} to external reference data
