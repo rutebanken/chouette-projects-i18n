@@ -158,6 +158,7 @@ en:
       3-JourneyPattern-3: Vérification de double définition de missions
       3-Line-1: Lines shall have different names
       3-Line-2: All lines must have stop sequences
+      3-Line-4: Line transport mode: %{error_value}
       3-Route-1: A stop sequence shall not include successive stops having the same parent
       3-Route-2: Detection of the reverse sequence of a stop sequence
       3-Route-3: Two successive stops in a stop sequence shall be neither too far, nor too close
