@@ -158,7 +158,7 @@ en:
       3-JourneyPattern-3: Vérification de double définition de missions
       3-Line-1: Lines shall have different names
       3-Line-2: All lines must have stop sequences
-      3-Line-4: Line transport mode: %{error_value}
+      3-Line-4: Line transport mode does not match Stop transport mode
       3-Route-1: A stop sequence shall not include successive stops having the same parent
       3-Route-2: Detection of the reverse sequence of a stop sequence
       3-Route-3: Two successive stops in a stop sequence shall be neither too far, nor too close
@@ -442,6 +442,7 @@ en:
       detail_3_journeypattern_1: Journey pattern %{source_label} (%{source_objectid}) uses the same stops as journey pattern %{target_0_label} (%{target_0_objectid}) - stop number = %{error_value}
       detail_3_line_1: Lines %{source_label} (%{source_objectid}) and %{target_0_label} (%{target_0_objectid}) of the same network have the same name
       detail_3_line_2: Line %{source_label} (%{source_objectid}) has no stop sequence
+      detail_3_line_4: Line transport mode does not match stop transport mode: %{error_value}
       detail_3_route_1: In stop sequence %{source_label} (%{source_objectid}), stop %{target_0_label} (%{target_0_objectid}) is present twice in a row
       detail_3_route_2: 'Terminal stops of stop sequence %{source_label} (%{source_objectid}) are not coherent with those of the opposite stop sequence : one sequence starts from %{target_0_label} (%{target_0_objectid}) and the opposite sequence arrives at %{target_1_label} (%{target_1_objectid})'
       detail_3_route_3_1: 'For stop sequence %{source_label} (%{source_objectid}), between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}), distance %{error_value} < %{reference_value} '
