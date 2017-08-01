@@ -270,7 +270,7 @@ en:
       detail_1_netexprofile_unresolvedreferencetocommonelements: Unresolved reference %{error_value} to elements in common files
       detail_1_netexprofile_useofunapprovedcodespace: Id %{error_value} is using an undeclared codespace xmlns
       detail_1_netexprofile_duplicateidentificatorsacrosscommonfiles: Id %{error_value} has also been declared in at least one other common file
-      detail_1_netexprofile_servicecalendarframe_daytypewithoutassignment: DayType %{error_value} is not assigned to any calendar dates or periods
+      detail_1_netexprofile_servicecalendarframe_daytypewithoutassignment: DayType %{source_objectid} is not assigned to any calendar dates or periods
       detail_1_regtopp_concistency_1: "%{reference_value}"
       detail_1_regtopp_concistency_2: "%{reference_value}"
       detail_1_regtopp_field_value_1: "%{reference_value}"
