@@ -258,6 +258,7 @@ en:
       detail_1_netexprofile_serviceframe_network: Missing Network element in ServiceFrame
       detail_1_netexprofile_serviceframe_network_name: Missing Name element on Network
       detail_1_netexprofile_serviceframe_servicejourneypattern: Use JourneyPattern instead of ServiceJourneyPattern
+      detail_1_netexprofile_serviceframe_journeypattern_first_stoppointinjourneypattern_destinationdisplayref: Missing DestinationDisplayRef on first StopPointInJourneyPattern
       detail_1_netexprofile_siteframe: Unexpected element SiteFrame. SiteFrame content ignored
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_departuretime: All TimetabledPassingTime except last call must have DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_same_value: ArrivalTime is identical to DepartureTime
