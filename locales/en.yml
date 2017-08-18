@@ -446,6 +446,7 @@ en:
       detail_3_facility_1: Facility %{source_label} (%{source_objectid}) has no coordinates
       detail_3_facility_2: 'Facility %{source_label} (%{source_objectid}) is too far from its parent %{areaName} (%{areaId}) : distance %{error_value} > %{reference_value}'
       detail_3_journeypattern_1: Journey pattern %{source_label} (%{source_objectid}) uses the same stops as journey pattern %{target_0_label} (%{target_0_objectid}) - stop number = %{error_value}
+      detail_3_journeypattern_3: Journey pattern %{source_label} (%{source_objectid}) references a stop with TransportMode %{reference_value}, but Line specifies incompatible TransportMode %{error_value} 
       detail_3_line_1: Lines %{source_label} (%{source_objectid}) and %{target_0_label} (%{target_0_objectid}) of the same network have the same name
       detail_3_line_2: Line %{source_label} (%{source_objectid}) has no stop sequence
       detail_3_line_4: Line transport mode does not match stop transport mode
