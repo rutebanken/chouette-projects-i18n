@@ -266,8 +266,9 @@ en:
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_departuretime: All TimetabledPassingTime except last call must have DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_same_value: ArrivalTime is identical to DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_last_arrivaltime: Last TimetabledPassingTime must have ArrivalTime
-      detail_1_netexprofile_timetableframe_servicejourney_operatorref_or_line_operatorref: Missing OperatorRef ServiceJourney and not defined on Line
+      detail_1_netexprofile_timetableframe_servicejourney_operatorref_or_line_operatorref: Missing OperatorRef on ServiceJourney while not defined on Line
       detail_1_netexprofile_timetableframe_servicejourney_transportmodeoverride: If overriding Line TransportMode or TransportSubmode on a ServiceJourney, both elements must be present
+      detail_1_netexprofile_timetableframe_servicejourney_missingtimetabledpassingtime: ServiceJourney %{source_objectid} does not specify passing time for all StopPointInJourneyPattern
       detail_1_netexprofile_unapprovedcodespacedefined: Codespace %{error_value} is not in the list of valid codespaces for this data space. Valid codespaces are %{reference_value}
       detail_1_netexprofile_unknownprofile: Unknown NeTEx profile %{error_value}
       detail_1_netexprofile_unresolvedexternalreference: Unresolved reference %{error_value} to external reference data
@@ -275,7 +276,14 @@ en:
       detail_1_netexprofile_useofunapprovedcodespace: Id %{error_value} is using an undeclared codespace xmlns
       detail_1_netexprofile_duplicateidentificatorsacrosscommonfiles: Id %{error_value} has also been declared in at least one other common file
       detail_1_netexprofile_servicecalendarframe_daytypewithoutassignment: DayType %{source_objectid} is not assigned to any calendar dates or periods
-      detail_1_netexprofile_timetableframe_servicejourney_missingtimetabledpassingtime: ServiceJourney %{source_objectid} does not specify passing time for all StopPointInJourneyPattern
+      detail_1_netexprofile_servicecalendarframe_emptyservicecalendar: ServiceCalendar does not contain neither DayTypes nor DayTypeAssignments
+      detail_1_netexprofile_servicecalendarframe_servicecalendar_fromdate: Missing FromDate on ServiceCalendar
+      detail_1_netexprofile_servicecalendarframe_servicecalendar_todate: Missing ToDate on ServiceCalendar
+      detail_1_netexprofile_servicecalendarframe_servicecalendar_fromdateaftertodate: FromDate cannot be after ToDate on ServiceCalendar
+      detail_1_netexprofile_validbetween_incomplete: ValidBetween missing either or both of FromDate/ToDate
+      detail_1_netexprofile_validbetween_fromdateaftertodate: FromDate cannot be after ToDate on ValidBetween
+      detail_1_netexprofile_availabilitycondition_incomplete: AvailabilityCondition must have either FromDate or ToDate or both present
+      detail_1_netexprofile_availabilitycondition_fromdateaftertodate: FromDate cannot be after ToDate on AvailabilityCondition
       detail_1_regtopp_concistency_1: "%{reference_value}"
       detail_1_regtopp_concistency_2: "%{reference_value}"
       detail_1_regtopp_field_value_1: "%{reference_value}"
