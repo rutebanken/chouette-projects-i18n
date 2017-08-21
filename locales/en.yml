@@ -256,6 +256,8 @@ en:
       detail_1_netexprofile_serviceframe_line_groupoflinesnetwork: A Line must refer to a GroupOfLines or a Network through element RepresentedByGroupRef
       detail_1_netexprofile_serviceframe_line_transportsub: Missing TransportMode on Line
       detail_1_netexprofile_serviceframe_line_transportsubmode: Missing TransportSubmode on Line
+      detail_1_netexprofile_serviceframe_line_illegaltransportmode: Illegal TransportMode '%{error_value}' on Line
+      detail_1_netexprofile_serviceframe_line_illegaltransportsubmode: Illegal TransportSubmode '%{error_value}' on Line
       detail_1_netexprofile_serviceframe_network_groupofline_name: Missing Name element on GroupOfLines
       detail_1_netexprofile_serviceframe_line_publiccode: Missing PublicCode on Line
       detail_1_netexprofile_serviceframe_network: Missing Network element in ServiceFrame
