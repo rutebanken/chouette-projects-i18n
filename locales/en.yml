@@ -1,4 +1,4 @@
-journey patternen:
+en:
   compliance_check_results:
     details:
       1-GTFS-CSV-1: Valid .zip Archive and files
@@ -158,17 +158,17 @@ journey patternen:
       3-JourneyPattern-2: La liste des segments du tracé la mission doit être complète
       3-JourneyPattern-3: Vérification de double définition de missions
       3-Line-1: Lines shall have different names
-      3-Line-2: All lines must have journey patterns
+      3-Line-2: All lines must have stop sequences
       3-Line-4: Line transport mode does not match Stop transport mode
-      3-Route-1: A journey pattern shall not include successive stops having the same parent
-      3-Route-2: Detection of the reverse sequence of a journey pattern
-      3-Route-3: Two successive stops in a journey pattern shall be neither too far, nor too close
-      3-Route-4: Journey patterns shall be unique
-      3-Route-5: Matching journey patterns with a reversed sequence
-      3-Route-6: Every journey pattern must include at least two stops
-      3-Route-7: Every journey pattern must include at least one journey pattern
+      3-Route-1: A stop sequence shall not include successive stops having the same parent
+      3-Route-2: Detection of the reverse sequence of a stop sequence
+      3-Route-3: Two successive stops in a stop sequence shall be neither too far, nor too close
+      3-Route-4: Stop sequences shall be unique
+      3-Route-5: Matching stop sequences with a reversed sequence
+      3-Route-6: Every stop sequence must include at least two stops
+      3-Route-7: Every stop sequence must include at least one journey pattern
       3-Route-8: Every stop of a sequence shall have at least one journey pattern containing it
-      3-Route-9: Every journey pattern shall have a journey pattern containing all stops of the sequence
+      3-Route-9: Every stop sequence shall have a journey pattern containing all stops of the sequence
       3-RouteSection-1: Les extrémités d’une section doivent être proches de la position des arrêts associés
       3-StopArea-1: All stops must have a location
       3-StopArea-2: 2 stops with differing names and of differing parent stops shall be nearby
@@ -465,18 +465,18 @@ journey patternen:
       detail_3_journeypattern_1: Journey pattern %{source_label} (%{source_objectid}) uses the same stops as journey pattern %{target_0_label} (%{target_0_objectid}) - stop number = %{error_value}
       detail_3_journeypattern_3: Journey pattern %{source_label} (%{source_objectid}) references stop %{target_0_label} (%{target_0_objectid}) with TransportMode %{reference_value}, but Line specifies incompatible TransportMode %{error_value}
       detail_3_line_1: Lines %{source_label} (%{source_objectid}) and %{target_0_label} (%{target_0_objectid}) of the same network have the same name
-      detail_3_line_2: Line %{source_label} (%{source_objectid}) has no journey pattern
+      detail_3_line_2: Line %{source_label} (%{source_objectid}) has no stop sequence
       detail_3_line_4: Line transport mode does not match stop transport mode
-      detail_3_route_1: In journey pattern %{source_label} (%{source_objectid}), stop %{target_0_label} (%{target_0_objectid}) is present twice in a row
-      detail_3_route_2: 'Terminal stops of journey pattern %{source_label} (%{source_objectid}) are not coherent with those of the opposite journey pattern : one sequence starts from %{target_0_label} (%{target_0_objectid}) and the opposite sequence arrives at %{target_1_label} (%{target_1_objectid})'
-      detail_3_route_3_1: 'For journey pattern %{source_label} (%{source_objectid}), the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Minimum distance is %{reference_value} meters'
-      detail_3_route_3_2: 'For journey pattern %{source_label} (%{source_objectid}), the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Maximum distance is %{reference_value} meters'
-      detail_3_route_4: Journey pattern %{source_label} (%{source_objectid}) has the same ordered list of stops than journey pattern %{target_0_label} (%{target_0_objectid})
-      detail_3_route_5: Journey pattern %{source_label} (%{source_objectid}) may have journey pattern %{target_0_label} (%{target_0_objectid}) as its opposite journey pattern
-      detail_3_route_6: Journey pattern %{source_label} (%{source_objectid}) must contain at least two stops
-      detail_3_route_7: Journey pattern %{source_label} (%{source_objectid}) has no journey pattern
-      detail_3_route_8: Journey pattern %{source_label} (%{source_objectid}) includes %{error_value} stops never referenced in a journey pattern
-      detail_3_route_9: Journey pattern %{source_label} (%{source_objectid}) has no journey pattern stopping at all stops
+      detail_3_route_1: In stop sequence %{source_label} (%{source_objectid}), stop %{target_0_label} (%{target_0_objectid}) is present twice in a row
+      detail_3_route_2: 'Terminal stops of stop sequence %{source_label} (%{source_objectid}) are not coherent with those of the opposite stop sequence : one sequence starts from %{target_0_label} (%{target_0_objectid}) and the opposite sequence arrives at %{target_1_label} (%{target_1_objectid})'
+      detail_3_route_3_1: 'For stop sequence %{source_label} (%{source_objectid}), the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Minimum distance is %{reference_value} meters'
+      detail_3_route_3_2: 'For stop sequence %{source_label} (%{source_objectid}), the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Maximum distance is %{reference_value} meters'
+      detail_3_route_4: Stop sequence %{source_label} (%{source_objectid}) has the same ordered list of stops than stop sequence %{target_0_label} (%{target_0_objectid})
+      detail_3_route_5: Stop sequence %{source_label} (%{source_objectid}) may have stop sequence %{target_0_label} (%{target_0_objectid}) as its opposite stop sequence
+      detail_3_route_6: Stop sequence %{source_label} (%{source_objectid}) must contain at least two stops
+      detail_3_route_7: Stop sequence %{source_label} (%{source_objectid}) has no journey pattern
+      detail_3_route_8: Stop sequence %{source_label} (%{source_objectid}) includes %{error_value} stops never referenced in a journey pattern
+      detail_3_route_9: Stop sequence %{source_label} (%{source_objectid}) has no journey pattern stopping at all stops
       detail_3_routesection_1: la section de tracé %{source_label} (%{source_objectid}) est trop éloignée de ses arrêts
       detail_3_stoparea_1: Stop %{source_label} (%{source_objectid}) is missing coordinates
       detail_3_stoparea_2: 'Stop %{source_label} (%{source_objectid}) is too close to stop %{target_0_label} (%{target_0_objectid}). Distance %{error_value} meters (Minimum is %{reference_value} meters)'
@@ -494,7 +494,7 @@ journey patternen:
       detail_3_vehiclejourney_3: 'The travel time of Journey %{source_label} (%{source_objectid}) between stops %{target_1_label} (%{target_1_objectid}) and %{target_2_label} (%{target_2_objectid}) differs by journey %{target_0_label} (%{target_0_objectid}) with %{error_value} seconds (Max variation is %{reference_value} seconds)'
       detail_3_vehiclejourney_3_1: 'The travel time between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})  on journey %{source_label} (%{source_objectid}) differs with more than %{error_value} seconds from the average diff on journey pattern (%{reference_value} seconds)'
       detail_3_vehiclejourney_4: Journey %{source_label} (%{source_objectid}) has no calendar
-      detail_3_vehiclejourney_5_1: Departure time at stop %{target_0_label} (%{target_0_objectid}) cannot be before arrival time
+      detail_3_vehiclejourney_5_1: The starting time shall be over the ending time for the stop %{target_0_label} (%{target_0_objectid})
       detail_3_vehiclejourney_5_2: The journey %{source_label} (%{source_objectid}) has times which don't respect time chronology between the stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})
       detail_3_vehiclejourney_6: La course %{source_label} (%{source_objectid}) est sur des plages de fréquences qui se chevauchent
       detail_3_vehiclejourney_7: La course %{source_label} (%{source_objectid}) est sur des plages de fréquences qui ne correspondent pas à ses créneaux horaires
@@ -531,16 +531,16 @@ journey patternen:
       detail_4_line_2: Line %{source_label} (%{source_objectid}) transport mode is invalid %{error_value}
       detail_4_line_3_1: Line %{source_label} (%{source_objectid}) has no group of lines
       detail_4_line_3_2: Line %{source_label} (%{source_objectid}) has more than one group of lines
-      detail_4_line_4_1: Line %{source_label} (%{source_objectid}) has no journey patterns
-      detail_4_line_4_2: Line %{source_label} (%{source_objectid}) has too many journey patterns not associated (%{error_value})
+      detail_4_line_4_1: Line %{source_label} (%{source_objectid}) has no stop sequence
+      detail_4_line_4_2: Line %{source_label} (%{source_objectid}) has too many stop sequences not associated (%{error_value})
       detail_4_network_1_max_size: Attribute %{reference_value} of network %{source_label} (%{source_objectid}) is too large (%{error_value})
       detail_4_network_1_min_size: 'Attribute %{reference_value} of network %{source_label} (%{source_objectid}) is empty or too small (%{error_value}) '
       detail_4_network_1_pattern: Attribute %{reference_value} of network %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
       detail_4_network_1_unique: Attribute %{reference_value} of network %{source_label} (%{source_objectid}) has the same value as that of network %{target_0_label} (%{target_0_objectid})
-      detail_4_route_1_max_size: Attribute %{reference_value} of journey pattern %{source_label} (%{source_objectid}) is too large (%{error_value})
-      detail_4_route_1_min_size: Attribute %{reference_value} of journey pattern %{source_label} (%{source_objectid}) is empty or too small (%{error_value})
-      detail_4_route_1_pattern: Attribute %{reference_value} of journey pattern %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
-      detail_4_route_1_unique: Attribute %{reference_value} of journey pattern %{source_label} (%{source_objectid}) has the same value as that of journey pattern %{target_0_label} (%{target_0_objectid})
+      detail_4_route_1_max_size: Attribute %{reference_value} of stop sequence %{source_label} (%{source_objectid}) is too large (%{error_value})
+      detail_4_route_1_min_size: Attribute %{reference_value} of stop sequence %{source_label} (%{source_objectid}) is empty or too small (%{error_value})
+      detail_4_route_1_pattern: Attribute %{reference_value} of stop sequence %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
+      detail_4_route_1_unique: Attribute %{reference_value} of stop sequence %{source_label} (%{source_objectid}) has the same value as that of stop sequence %{target_0_label} (%{target_0_objectid})
       detail_4_stoparea_1_max_size: Attribute %{reference_value} de l'arrêt %{source_label} (%{source_objectid}) is too large (%{error_value})
       detail_4_stoparea_1_min_size: Attribute %{reference_value} de l'arrêt %{source_label} (%{source_objectid}) is empty or too small (%{error_value})
       detail_4_stoparea_1_pattern: Attribute %{reference_value} de l'arrêt %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
