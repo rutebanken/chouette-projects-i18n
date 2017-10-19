@@ -467,6 +467,10 @@ en:
       detail_3_connectionlink_3_4: For transfer %{source_label} (%{source_objectid}), the handicapped traveler speed %{error_value} km/h is larger than %{reference_value} km/h
       detail_3_facility_1: Facility %{source_label} (%{source_objectid}) has no coordinates
       detail_3_facility_2: 'Facility %{source_label} (%{source_objectid}) is too far from its parent %{areaName} (%{areaId}) : distance %{error_value} > %{reference_value}'
+      detail_3_interchange_1: Interchange (%{source_objectid}) references unknown feeder scheduled stop point (%{error_value})
+      detail_3_interchange_2: Interchange (%{source_objectid}) references unknown feeder vehicle journey (%{error_value})
+      detail_3_interchange_3: Interchange (%{source_objectid}) references unknown consumer scheduled stop point (%{error_value})
+      detail_3_interchange_4: Interchange (%{source_objectid}) references unknown consumer vehicle journey (%{error_value})
       detail_3_journeypattern_1: Journey pattern %{source_label} (%{source_objectid}) uses the same stops as journey pattern %{target_0_label} (%{target_0_objectid}) - stop number = %{error_value}
       detail_3_journeypattern_3: Journey pattern %{source_label} (%{source_objectid}) references stop %{target_0_label} (%{target_0_objectid}) with TransportMode %{reference_value}, but Line specifies incompatible TransportMode %{error_value}
       detail_3_line_1: Lines %{source_label} (%{source_objectid}) and %{target_0_label} (%{target_0_objectid}) of the same network have the same name
