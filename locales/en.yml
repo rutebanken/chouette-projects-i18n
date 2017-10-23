@@ -586,6 +586,10 @@ en:
     one: 1 warning
     other: "%{count} warnings"
     zero: 0 warning
+  count_info:
+    one: 1 info
+    other: "%{count} info"
+    zero: 0 info
   iev:
     errors:
       duplicate_or_missing_data: Missing data or duplicate
@@ -620,8 +624,10 @@ en:
       tests: Tests
       tests-1-2-error: Validation tests required to be compliant with data format
       tests-1-2-warning: Validation tests recommended to be compliant with data format
+      tests-1-2-info: Validation tests suggested to be compliant with data format
       tests-3-4-error: Additional required validations test for data quality
       tests-3-4-warning: Additional recommended validations test for data quality
+      tests-3-4-info: Additional suggested validations test for data quality
       timetable: Timetable
       timetables: Timetables
       transport_datas: Transport data
