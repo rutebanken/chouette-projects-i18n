@@ -235,6 +235,7 @@ en:
       detail_1_neptune_xml_2: "%{source_label} : %{error_value}"
       detail_1_netexprofile_compositeframe_codespace: NSR Codespace must be declared (Xmlns=NSR, XmlnsUrl=http://www.rutebanken.org/ns/nsr). Any references to StopPlaces must point to data in the NSR namespace
       detail_1_netexprofile_compositeframe_validityconditions: A CompositeFrame must define a ValidityCondition valid for all data within the CompositeFrame
+      detail_1_netexprofile_novalidityconditionsonserviceorservicecalendarortimetableframe: Neither ServiceFrame, ServiceCaledarFrame or TimetableFrame defines ValidityConditions
       detail_1_netexprofile_validityconditionsonframesinsidecompositeframe: ValidityConditions defined inside a frame inside a CompositeFrame
       detail_1_netexprofile_duplicateidentificatorsacrosslineandcommonfiles: Element id %{error_value} have already been defined in a common file and cannot be reused in a line file
       detail_1_netexprofile_duplicateidentificatorsacrosslinefiles: Element id %{error_value} have already been defined in a previous line file
@@ -252,6 +253,7 @@ en:
       detail_1_netexprofile_resourceframe_organisations_operator_name: Missing Name on Operator
       detail_1_netexprofile_resourceframe_organisations_operator_legalname: Missing LegalName element on Operator
       detail_1_netexprofile_schemavalidationerror: 'XML Schema validation error: %{error_value}'
+      detail_1_netexprofile_serviceframe: Missing element ServiceFram
       detail_1_netexprofile_serviceframe_journeypattern_passengerstopassignment_quayref: Reference to Quay %{source_objectid} not found in stop registry
       detail_1_netexprofile_serviceframe_line: There should be exactly 1 Line pr file
       detail_1_netexprofile_serviceframe_line_groupoflinesnetwork: A Line must refer to a GroupOfLines or a Network through element RepresentedByGroupRef
@@ -274,6 +276,7 @@ en:
       detail_1_netexprofile_serviceframe_stoppointinjourneypattern_repeating_destinationdisplayref: StopPointInJourneyPattern declares reference to the same DestinationDisplay as previous StopPointInJourneyPattern
       detail_1_netexprofile_serviceframe_timingpoints: Unexpected element timingPoints. Content ignored
       detail_1_netexprofile_siteframe: Unexpected element SiteFrame. SiteFrame content ignored
+      detail_1_netexprofile_timetableframe: Missing element TimetableFrame
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_departuretime: All TimetabledPassingTime except last call must have DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_same_value: ArrivalTime is identical to DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_last_arrivaltime: Last TimetabledPassingTime must have ArrivalTime
