@@ -481,10 +481,10 @@ en:
       detail_3_route_2: 'Terminal stops of Route %{source_label} (%{source_objectid}) are not coherent with those of the opposite Route : one sequence starts from %{target_0_label} (%{target_0_objectid}) and the opposite sequence arrives at %{target_1_label} (%{target_1_objectid})'
       detail_3_route_3_1: 'For Route %{source_label} (%{source_objectid}), the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Minimum distance is %{reference_value} meters'
       detail_3_route_3_2: 'For Route %{source_label} (%{source_objectid}), the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Maximum distance is %{reference_value} meters'
-      detail_3_route_4: Route %{source_label} (%{source_objectid}) has the same ordered list of stops than journey pattern %{target_0_label} (%{target_0_objectid})
-      detail_3_route_5: Route %{source_label} (%{source_objectid}) may have journey pattern %{target_0_label} (%{target_0_objectid}) as its opposite journey pattern
+      detail_3_route_4: Route %{source_label} (%{source_objectid}) has the same ordered list of stops as route %{target_0_label} (%{target_0_objectid})
+      detail_3_route_5: Route %{source_label} (%{source_objectid}) may have route %{target_0_label} (%{target_0_objectid}) as its opposite route
       detail_3_route_6: Route %{source_label} (%{source_objectid}) must contain at least two stops
-      detail_3_route_7: Route pattern %{source_label} (%{source_objectid}) has no journey pattern
+      detail_3_route_7: Route pattern %{source_label} (%{source_objectid}) has no journey patterns
       detail_3_route_8: Route %{source_label} (%{source_objectid}) includes %{error_value} stops never referenced in a journey pattern
       detail_3_route_9: Route %{source_label} (%{source_objectid}) has no journey pattern stopping at all stops
       detail_3_routesection_1: la section de tracé %{source_label} (%{source_objectid}) est trop éloignée de ses arrêts
