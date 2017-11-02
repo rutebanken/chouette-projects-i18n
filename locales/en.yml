@@ -497,6 +497,9 @@ en:
       detail_3_route_7: Route pattern %{source_label} (%{source_objectid}) has no journey patterns
       detail_3_route_8: Route %{source_label} (%{source_objectid}) includes %{error_value} stops never referenced in a journey pattern
       detail_3_route_9: Route %{source_label} (%{source_objectid}) has no journey pattern stopping at all stops
+      detail_3_route_rutebanken_2: Route %{source_label} (%{source_objectid}), stop %{target_0_label} (%{target_0_objectid}) is present twice in a row
+      detail_3_route_rutebanken_3: Route %{source_label} (%{source_objectid}) has the same ordered list of Route points as Route %{target_0_label} (%{target_0_objectid})
+      detail_3_route_rutebanken_4: Route %{source_label} (%{source_objectid}) must contain at least two Route points
       detail_3_routesection_1: la section de tracé %{source_label} (%{source_objectid}) est trop éloignée de ses arrêts
       detail_3_stoparea_1: Stop %{source_label} (%{source_objectid}) is missing coordinates
       detail_3_stoparea_2: 'Stop %{source_label} (%{source_objectid}) is too close to stop %{target_0_label} (%{target_0_objectid}). Distance %{error_value} meters (Minimum is %{reference_value} meters)'
