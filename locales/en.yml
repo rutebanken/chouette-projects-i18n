@@ -282,7 +282,6 @@ en:
       detail_1_netexprofile_serviceframe_timingpoints: Unexpected element timingPoints. Content ignored
       detail_1_netexprofile_siteframe: Unexpected element SiteFrame. SiteFrame content ignored
       detail_1_netexprofile_timetableframe: Missing element TimetableFrame
-      detail_1_netexprofile_timetableframe_servicejourney
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_departuretime: All TimetabledPassingTime except last call must have DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_same_value: ArrivalTime is identical to DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_last_arrivaltime: Last TimetabledPassingTime must have ArrivalTime
