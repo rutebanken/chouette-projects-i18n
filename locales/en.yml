@@ -481,6 +481,7 @@ en:
       detail_3_interchange_3: Interchange (%{source_objectid}) references unknown consumer scheduled stop point (%{error_value})
       detail_3_interchange_4: Interchange (%{source_objectid}) references unknown consumer vehicle journey (%{error_value})
       detail_3_journeypattern_1: Journey pattern %{source_label} (%{source_objectid}) uses the same stops as journey pattern %{target_0_label} (%{target_0_objectid}) - stop number = %{error_value}
+      detail_3_journeypattern_2: Journey pattern %{source_label} (%{source_objectid}) does route sections count that does not match number of stops in pattern. Should be %{target_1}, but is %{target_0}
       detail_3_journeypattern_3: Journey pattern %{source_label} (%{source_objectid}) references stop %{target_0_label} (%{target_0_objectid}) with TransportMode %{reference_value}, but Line specifies incompatible TransportMode %{error_value}
       detail_3_journeypattern_4: Journey pattern %{source_label} (%{source_objectid}) permits boarding on arrival stop
       detail_3_journeypattern_rutebanken_1_1: For Journey pattern %{source_label} (%{source_objectid}, the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Minimum distance is %{reference_value} meters'
