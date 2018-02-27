@@ -487,7 +487,7 @@ en:
       detail_3_journeypattern_rutebanken_1_1: For Journey pattern %{source_label} (%{source_objectid}, the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Minimum distance is %{reference_value} meters'
       detail_3_journeypattern_rutebanken_1_2: For Journey pattern %{source_label} (%{source_objectid}, the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Maximum distance is %{reference_value} meters'
       detail_3_journeypattern_rutebanken_2: Journey pattern %{source_label} (%{source_objectid}), stop %{target_0_label} (%{target_0_objectid}) is present twice in a row
-      detail_3_journeypattern_rutebanken_3: Journey pattern %{source_label} (%{source_objectid}) has the same ordered list of stops as Journey pattern %{target_0_label} (%{target_0_objectid})
+      detail_3_journeypattern_rutebanken_3: Journey pattern %{source_label} (%{source_objectid}) is identical to Journey pattern %{target_0_label} (%{target_0_objectid})
       detail_3_journeypattern_rutebanken_4: Journey pattern %{source_label} (%{source_objectid}) must contain at least two stops
       detail_3_line_1: Lines %{source_label} (%{source_objectid}) and %{target_0_label} (%{target_0_objectid}) of the same network have the same name
       detail_3_line_2: Line %{source_label} (%{source_objectid}) has no journey pattern
