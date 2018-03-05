@@ -516,9 +516,11 @@ en:
       detail_rutebanken_3_stoppoint_2: StopPoint %{source_objectid} refers to a parent StopArea %{target_0_objectid} (%{target_0_label}), not a child StopArea (Quay/BoardingPosition)
       detail_rutebanken_3_stoppoint_3: StopPoint %{source_objectid} in Route %{target_1_label} at stop %{target_0_objectid} (%{target_0_label}) neither allows boarding nor alighting
       detail_3_vehiclejourney_1: 'The waiting time is too long at stop %{target_0_label} (%{target_0_objectid}) : %{error_value} seconds (Max wait time %{reference_value} seconds)'
+      detail_3_vehiclejourney_2_1: Journey %{source_label} (%{source_objectid}) has decreasing stop times between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})
       detail_3_vehiclejourney_2_2: Journey %{source_label} (%{source_objectid}) speed between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} km/h. Minimum is %{reference_value} km/h
       detail_3_vehiclejourney_2_3: Journey %{source_label} (%{source_objectid}) speed between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} km/h. Warning limit is %{reference_value} km/h
       detail_3_vehiclejourney_2_4: Journey %{source_label} (%{source_objectid}) at stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) has same departure/arrival time %{error_value}
+      detail_3_vehiclejourney_2_5: Journey %{source_label} (%{source_objectid}) speed between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} km/h. Maximum allowed speed is %{reference_value} km/h
       detail_3_vehiclejourney_3: 'The travel time of Journey %{source_label} (%{source_objectid}) between stops %{target_1_label} (%{target_1_objectid}) and %{target_2_label} (%{target_2_objectid}) differs by journey %{target_0_label} (%{target_0_objectid}) with %{error_value} seconds (Max variation is %{reference_value} seconds)'
       detail_3_vehiclejourney_3_1: 'The travel time between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})  on journey %{source_label} (%{source_objectid}) differs with more than %{error_value} seconds from the average diff on journey pattern (%{reference_value} seconds)'
       detail_3_vehiclejourney_4: Journey %{source_label} (%{source_objectid}) has no calendar
@@ -527,8 +529,6 @@ en:
       detail_3_vehiclejourney_6: La course %{source_label} (%{source_objectid}) est sur des plages de fréquences qui se chevauchent
       detail_3_vehiclejourney_7: La course %{source_label} (%{source_objectid}) est sur des plages de fréquences qui ne correspondent pas à ses créneaux horaires
       detail_3_vehiclejourney_8: La course %{source_label} (%{source_objectid}) à horaire fixe circule dans l'un des crénaux horaires des courses à fréquence de la mission
-      detail_3_vehiclejourney_rutebanken_1: Journey %{source_label} (%{source_objectid}) has decreasing stop times between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid})
-      detail_3_vehiclejourney_rutebanken_2: Journey %{source_label} (%{source_objectid}) speed between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} km/h. Maximum allowed speed is %{reference_value} km/h
       detail_4_accesslink_1_max_size: Attribute %{reference_value} of access link %{source_label} (%{source_objectid}) is too large (%{error_value})
       detail_4_accesslink_1_min_size: Attribute %{reference_value} of access link %{source_label} (%{source_objectid}) is empty or too small (%{error_value})
       detail_4_accesslink_1_pattern: Attribute %{reference_value} of access link %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
