@@ -285,6 +285,8 @@ en:
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_departuretime: All TimetabledPassingTime except last call must have DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_same_value: ArrivalTime is identical to DepartureTime
       detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_last_arrivaltime: Last TimetabledPassingTime must have ArrivalTime
+      detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_id: Missing id on TimetabledPassingTime
+      detail_1_netexprofile_timetableframe_servicejourney_timetabledpassingtime_version: Missing version on TimetabledPassingTime
       detail_1_netexprofile_timetableframe_servicejourney_operatorref_or_line_operatorref: Missing OperatorRef on ServiceJourney while not defined on Line
       detail_1_netexprofile_timetableframe_servicejourney_transportmodeoverride: If overriding Line TransportMode or TransportSubmode on a ServiceJourney, both elements must be present
       detail_1_netexprofile_timetableframe_servicejourney_missingtimetabledpassingtime: ServiceJourney %{source_objectid} does not specify passing time for all StopPointInJourneyPattern
