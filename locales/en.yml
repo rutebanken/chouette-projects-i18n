@@ -258,6 +258,10 @@ en:
       detail_1_netexprofile_schemavalidationerror: 'XML Schema validation error: %{error_value}'
       detail_1_netexprofile_serviceframe: Missing element ServiceFrame
       detail_1_netexprofile_serviceframe_journeypattern_passengerstopassignment_quayref: Reference to Quay %{source_objectid} not found in stop registry
+      detail_1_netexprofile_serviceframe_flexibleline_flexiblelinetype: Missing FlexibleLineType on FlexibleLine
+      detail_1_netexprofile_serviceframe_flexibleline_bookingcontact: Missing BookingContact on FlexibleLine
+      detail_1_netexprofile_serviceframe_flexibleline_bookwhen: Missing BookWhen on FlexibleLine
+      detail_1_netexprofile_serviceframe_flexibleline_bookingmethods: Missing BookingMethods e on FlexibleLine
       detail_1_netexprofile_serviceframe_line: There should be exactly 1 Line pr file
       detail_1_netexprofile_serviceframe_line_name: Missing Name on Line
       detail_1_netexprofile_serviceframe_line_groupoflinesnetwork: A Line must refer to a GroupOfLines or a Network through element RepresentedByGroupRef
