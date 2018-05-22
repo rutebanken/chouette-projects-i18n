@@ -262,6 +262,11 @@ en:
       detail_1_netexprofile_serviceframe_flexibleline_bookingcontact: Missing BookingContact on FlexibleLine
       detail_1_netexprofile_serviceframe_flexibleline_bookwhen: Missing BookWhen on FlexibleLine
       detail_1_netexprofile_serviceframe_flexibleline_bookingmethods: Missing BookingMethods on FlexibleLine
+      detail_1_netexprofile_serviceframe_flexibleline_illegalbookingmethods: Illegal BookingMethods on FlexibleLine
+      detail_1_netexprofile_serviceframe_flexibleline_illegalflexiblelinetype: Illegal FlexibleLineType on FlexibleLine
+      detail_1_netexprofile_serviceframe_flexibleline_illegalbookingaccess: Illegal BookingAccess on FlexibleLine
+      detail_1_netexprofile_serviceframe_flexibleline_illegalbookwhen: Illegal BookWhen on FlexibleLine
+      detail_1_netexprofile_serviceframe_flexibleline_illegalbuywhen: Illegal BuyWhen on FlexibleLine
       detail_1_netexprofile_serviceframe_line: There should be exactly 1 Line pr file
       detail_1_netexprofile_serviceframe_line_name: Missing Name on Line
       detail_1_netexprofile_serviceframe_line_groupoflinesnetwork: A Line must refer to a GroupOfLines or a Network through element RepresentedByGroupRef
