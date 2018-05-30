@@ -292,6 +292,14 @@ en:
       detail_1_netexprofile_serviceframe_servicelink_topointref: Missing ToPointRef on ServiceLink
       detail_1_netexprofile_serviceframe_servicelink_projections: Missing projections element on ServiceLink
       detail_1_netexprofile_serviceframe_stoppointinjourneypattern_repeating_destinationdisplayref: StopPointInJourneyPattern declares reference to the same DestinationDisplay as previous StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_stoppointinjourneypattern_bookingcontact: Missing BookingContact on BookingArrangement for StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_stoppointinjourneypattern_bookwhen: Missing BookWhen on BookingArrangement for StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_stoppointinjourneypattern_bookingmethods: Missing BookingMethods on BookingArrangement for StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_stoppointinjourneypattern_illegalbookingmethods: Illegal BookingMethods on BookingArrangement for StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_stoppointinjourneypattern_illegalflexiblelinetype: Illegal FlexibleLineType on BookingArrangement for StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_stoppointinjourneypattern_illegalbookingaccess: Illegal BookingAccess on BookingArrangement for StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_stoppointinjourneypattern_illegalbookwhen: Illegal BookWhen on BookingArrangement for StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_stoppointinjourneypattern_illegalbuywhen: Illegal BuyWhen on BookingArrangement for StopPointInJourneyPattern
       detail_1_netexprofile_serviceframe_timingpoints: Unexpected element timingPoints. Content ignored
       detail_1_netexprofile_siteframe: Unexpected element SiteFrame. SiteFrame content ignored
       detail_1_netexprofile_timetableframe: Missing element TimetableFrame
@@ -304,6 +312,14 @@ en:
       detail_1_netexprofile_timetableframe_servicejourney_transportmodeoverride: If overriding Line TransportMode or TransportSubmode on a ServiceJourney, both elements must be present
       detail_1_netexprofile_timetableframe_servicejourney_missingtimetabledpassingtime: ServiceJourney %{source_objectid} does not specify passing time for all StopPointInJourneyPattern
       detail_1_netexprofile_timetableframe_servicejourney_duplicatewithdifferentversion: ServiceJourney is repeated with a different version - only added dayTypes from it
+      detail_1_netexprofile_timetableframe_servicejourney_bookingcontact: Missing BookingContact on FlexibleServiceProperties for ServiceJourney
+      detail_1_netexprofile_timetableframe_servicejourney_bookwhen: Missing BookWhen on FlexibleServiceProperties for ServiceJourney
+      detail_1_netexprofile_timetableframe_servicejourney_bookingmethods: Missing BookingMethods on FlexibleServiceProperties for ServiceJourney
+      detail_1_netexprofile_timetableframe_servicejourney_illegalbookingmethods: Illegal BookingMethods on FlexibleServiceProperties for ServiceJourney
+      detail_1_netexprofile_timetableframe_servicejourney_illegalflexiblelinetype: Illegal FlexibleLineType on FlexibleServiceProperties for ServiceJourney
+      detail_1_netexprofile_timetableframe_servicejourney_illegalbookingaccess: Illegal BookingAccess on FlexibleServiceProperties for ServiceJourney
+      detail_1_netexprofile_timetableframe_servicejourney_illegalbookwhen: Illegal BookWhen on FlexibleServiceProperties for ServiceJourney
+      detail_1_netexprofile_timetableframe_servicejourney_illegalbuywhen: Illegal BuyWhen on FlexibleServiceProperties for ServiceJourney
       detail_1_netexprofile_unapprovedcodespacedefined: Codespace %{error_value} is not in the list of valid codespaces for this data space. Valid codespaces are %{reference_value}
       detail_1_netexprofile_unknownprofile: Unknown NeTEx profile '%{error_value}'
       detail_1_netexprofile_unresolvedexternalreference: Unresolved reference '%{error_value}' to external reference data
