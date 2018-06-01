@@ -312,6 +312,8 @@ en:
       detail_1_netexprofile_timetableframe_servicejourney_transportmodeoverride: If overriding Line TransportMode or TransportSubmode on a ServiceJourney, both elements must be present
       detail_1_netexprofile_timetableframe_servicejourney_missingtimetabledpassingtime: ServiceJourney %{source_objectid} does not specify passing time for all StopPointInJourneyPattern
       detail_1_netexprofile_timetableframe_servicejourney_duplicatewithdifferentversion: ServiceJourney is repeated with a different version - only added dayTypes from it
+      detail_1_netexprofile_timetableframe_flexibleserviceproperties_id: Missing id on FlexibleServiceProperties
+      detail_1_netexprofile_timetableframe_flexibleserviceproperties_version: Missing version on FlexibleServiceProperties
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_bookingcontact: Missing BookingContact on FlexibleServiceProperties
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_bookwhen: Missing BookWhen on FlexibleServiceProperties
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_bookingmethods: Missing BookingMethods on FlexibleServiceProperties
