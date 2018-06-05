@@ -283,6 +283,7 @@ en:
       detail_1_netexprofile_serviceframe_destinationdisplay_fronttext: Missing FrontText on DestinationDisplay
       detail_1_netexprofile_serviceframe_destinationdisplay_via_destinationdisplayref: Missing DestinationDisplayRef on Via
       detail_1_netexprofile_serviceframe_journeypattern_first_stoppointinjourneypattern_destinationdisplayref: Missing DestinationDisplayRef on first StopPointInJourneyPattern
+      detail_1_netexprofile_serviceframe_journeypattern_first_stoppointinjourneypattern_destinationdisplayrefonlaststop: DestinationDisplayRef not allowed on last StopPointInJourneyPattern
       detail_1_netexprofile_serviceframe_passengerstopassignment_quayref: Missing QuayRef on PassengerStopAssignment
       detail_1_netexprofile_serviceframe_passengerstopassignment_scheduledstoppointref: Missing ScheduledStopPointRef on PassengerStopAssignment
       detail_1_netexprofile_serviceframe_servicelink_frompointref: Missing FromPointRef on ServiceLink
