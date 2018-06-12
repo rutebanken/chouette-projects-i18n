@@ -318,6 +318,9 @@ en:
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_illegalbookwhen: Illegal BookWhen on FlexibleServiceProperties
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_illegalbuywhen: Illegal BuyWhen on FlexibleServiceProperties
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_illegalflexibleservicetype: Illegal FlexibleServiceType on FlexibleServiceProperties
+      detail_1_netexprofile_vehiclescheduleframe_block: At least one Block required in VehicleScheduleFrame
+      detail_1_netexprofile_vehiclescheduleframe_block_journeys: At least one Journey must be defined for Block
+      detail_1_netexprofile_vehiclescheduleframe_block_daytypes: At least one DayType must be defined for Block
       detail_1_netexprofile_unapprovedcodespacedefined: Codespace %{error_value} is not in the list of valid codespaces for this data space. Valid codespaces are %{reference_value}
       detail_1_netexprofile_unknownprofile: Unknown NeTEx profile '%{error_value}'
       detail_1_netexprofile_unresolvedexternalreference: Unresolved reference '%{error_value}' to external reference data
