@@ -257,6 +257,7 @@ en:
       detail_1_netexprofile_resourceframe_organisations_operator_legalname: Missing LegalName element on Operator
       detail_1_netexprofile_schemavalidationerror: 'XML Schema validation error: %{error_value}'
       detail_1_netexprofile_serviceframe: Missing element ServiceFrame
+      detail_1_netexprofile_serviceframe_journeypattern_routeref: Missing RouteRef on JourneyPattern
       detail_1_netexprofile_serviceframe_journeypattern_passengerstopassignment_quayref: Reference to Quay %{source_objectid} not found in stop registry
       detail_1_netexprofile_serviceframe_flexibleline_flexiblelinetype: Missing FlexibleLineType on FlexibleLine
       detail_1_netexprofile_serviceframe_flexibleline_illegalbookingmethods: Illegal BookingMethods on FlexibleLine
@@ -524,6 +525,7 @@ en:
       detail_3_line_1: Lines %{source_label} (%{source_objectid}) and %{target_0_label} (%{target_0_objectid}) of the same network have the same name
       detail_3_line_2: Line %{source_label} (%{source_objectid}) has no journey pattern
       detail_3_line_4: Line transport mode does not match stop transport mode
+      detail_3_no_data: No lines exist in data space
       detail_3_route_1: In Route %{source_label} (%{source_objectid}), stop %{target_0_label} (%{target_0_objectid}) is present twice in a row
       detail_3_route_2: 'Terminal stops of Route %{source_label} (%{source_objectid}) are not coherent with those of the opposite Route : one sequence starts from %{target_0_label} (%{target_0_objectid}) and the opposite sequence arrives at %{target_1_label} (%{target_1_objectid})'
       detail_3_route_3_1: 'For Route %{source_label} (%{source_objectid}), the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Minimum distance is %{reference_value} meters'
