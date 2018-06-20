@@ -279,6 +279,7 @@ en:
       detail_1_netexprofile_serviceframe_network_name: Missing Name element on Network
       detail_1_netexprofile_serviceframe_route_name: Missing Name on Route
       detail_1_netexprofile_serviceframe_route_lineref: Missing lineRef on Route
+      detail_1_netexprofile_serviceframe_route_directionref: DirectionRef not allowed on Route (use DirectionType)
       detail_1_netexprofile_serviceframe_route_pointsinsequence: Missing pointsInSequence on Route
       detail_1_netexprofile_serviceframe_servicejourneypattern: Use JourneyPattern instead of ServiceJourneyPattern
       detail_1_netexprofile_serviceframe_destinationdisplay_fronttext: Missing FrontText on DestinationDisplay
