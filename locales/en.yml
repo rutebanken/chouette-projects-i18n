@@ -365,7 +365,7 @@ en:
       detail_2_database_stoppoint_1: Le point d'arrêt %{source_objectid} importé n'appartient pas à la même séquence d'arrêts que celui déjà en base
       detail_2_database_stoppoint_2: Le point d'arrêt %{source_objectid} importé n'est pas à la même position dans la séquence d'arrêts que celui déjà en base
       detail_2_database_stoppoint_3: L'arrêt %{source_objectid} importé est différent de celui de la séquence d'arrêts déjà en base
-      detail_2_database_vehiclejourney_1: La course %{source_objectid} importée n'appartient pas à la même mission que celle déjà en base
+      detail_2_database_vehiclejourney_1: New version of VehicleJourney %{source_objectid} does not belong to the same JourneyPattern as existing version
       detail_2_database_vehiclejourney_2: La course %{source_objectid} importée ne référence pas le même transporteur que celle déjà en base
       detail_2_gtfs_common_1: 'Unknown identifier %{reference_value} : %{error_value}'
       detail_2_gtfs_common_2: 'The %{reference_value} Id is not referenced anywhere : %{error_value}'
