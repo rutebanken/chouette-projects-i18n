@@ -539,6 +539,7 @@ en:
       detail_3_line_2: Line %{source_label} (%{source_objectid}) has no journey pattern
       detail_3_line_4: Line transport mode does not match stop transport mode
       detail_3_no_data: No lines exist in data space
+      detail_3_no_line: There should be at least one file defining a line
       detail_3_route_1: In Route %{source_label} (%{source_objectid}), stop %{target_0_label} (%{target_0_objectid}) is present twice in a row
       detail_3_route_2: 'Terminal stops of Route %{source_label} (%{source_objectid}) are not coherent with those of the opposite Route : one sequence starts from %{target_0_label} (%{target_0_objectid}) and the opposite sequence arrives at %{target_1_label} (%{target_1_objectid})'
       detail_3_route_3_1: 'For Route %{source_label} (%{source_objectid}), the distance between stops %{target_0_label} (%{target_0_objectid}) and %{target_1_label} (%{target_1_objectid}) is %{error_value} meters. Minimum distance is %{reference_value} meters'
