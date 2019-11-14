@@ -277,6 +277,7 @@ en:
       detail_1_netexprofile_serviceframe_line_publiccode: Missing PublicCode on Line
       detail_1_netexprofile_serviceframe_network: Missing Network element in ServiceFrame
       detail_1_netexprofile_serviceframe_network_autorityref: Missing AuthorityRef on Network
+      detail_1_netexprofile_serviceframe_routepoint_projection: Missing Projection on RoutePoint
       detail_1_netexprofile_serviceframe_network_name: Missing Name element on Network
       detail_1_netexprofile_serviceframe_route_name: Missing Name on Route
       detail_1_netexprofile_serviceframe_route_lineref: Missing lineRef on Route
