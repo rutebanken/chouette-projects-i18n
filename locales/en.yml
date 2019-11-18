@@ -558,6 +558,7 @@ en:
       detail_3_routesection_1: Route section %{source_label} (%{source_objectid}) has distance (%{error_value}) greater than maximum distance allowed (%{reference_value})
       detail_3_routesection_2_1: Route section %{source_label} (%{source_objectid}) starts too far from departure StopArea %{target_0_objectid} (%{target_0_label}). Distance (%{error_value}), maximum distance allowed (%{reference_value})
       detail_3_routesection_2_2: Route section %{source_label} (%{source_objectid}) ends too far from destination StopArea %{target_0_objectid} (%{target_0_label}). Distance (%{error_value}), maximum distance allowed (%{reference_value})
+      detail_3_routesection_2_3: Route section %{source_label} (%{source_objectid}) refers to a scheduled stop point %{target_0_label} (%{target_0_objectid}) that is not part of the route.
       detail_3_stoparea_1: Stop %{source_label} (%{source_objectid}) is missing coordinates
       detail_3_stoparea_2: 'Stop %{source_label} (%{source_objectid}) is too close to stop %{target_0_label} (%{target_0_objectid}). Distance %{error_value} meters (Minimum is %{reference_value} meters)'
       detail_3_stoparea_3: Stops %{source_label} (%{source_objectid} and %{target_0_objectid}) are served by the same lines
