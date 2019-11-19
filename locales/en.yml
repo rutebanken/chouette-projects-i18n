@@ -293,6 +293,7 @@ en:
       detail_1_netexprofile_serviceframe_servicelink_frompointref: Missing FromPointRef on ServiceLink
       detail_1_netexprofile_serviceframe_servicelink_topointref: Missing ToPointRef on ServiceLink
       detail_1_netexprofile_serviceframe_servicelink_projections: Missing projections element on ServiceLink
+      detail_1_netexprofile_serviceframe_servicelink_missing_position_coordinates: Missing position coordinates on ServiceLink
       detail_1_netexprofile_serviceframe_stoppointinjourneypattern_noboardingnoalighting: StopPointInJourneyPattern neither allows boarding nor alighting
       detail_1_netexprofile_serviceframe_stoppointinjourneypattern_repeating_destinationdisplayref: StopPointInJourneyPattern declares reference to the same DestinationDisplay as previous StopPointInJourneyPattern
       detail_1_netexprofile_serviceframe_stoppointinjourneypattern_illegalbookingmethods: Illegal BookingMethods on BookingArrangement for StopPointInJourneyPattern
