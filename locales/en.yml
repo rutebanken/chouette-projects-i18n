@@ -362,7 +362,7 @@ en:
       detail_2_database_journeypattern_1: La mission %{source_objectid} importée n'appartient pas à la même séquence d'arrêts que celle déjà en base
       detail_2_database_line_1: La ligne %{source_objectid} importée ne référence pas le même réseau que celle déjà en base
       detail_2_database_line_2: La ligne %{source_objectid} importée ne référence pas le même transporteur que celle déjà en base
-      detail_2_database_route_1: La séquence d'arrêts %{source_objectid} importée n'appartient pas à la même ligne que celle déjà en base
+      detail_2_database_route_1: The imported route %{source_objectid} does not belong to the same line as the one currently stored in database
       detail_2_database_stoparea_1: L'arrêt %{source_objectid} importé n'appartient pas au même parent que celui déjà en base
       detail_2_database_stoparea_2: L'arrêt %{source_objectid} importé n'est pas du même type que celui déjà en base
       detail_2_database_stoppoint_1: Le point d'arrêt %{source_objectid} importé n'appartient pas à la même séquence d'arrêts que celui déjà en base
