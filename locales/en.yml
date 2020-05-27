@@ -244,8 +244,9 @@ en:
       detail_1_netexprofile_missingreferenceversionattribute: Element (reference) %{error_value} is missing the version attribute
       detail_1_netexprofile_missingversionattribute: Element (reference) %{error_value} is missing the version attribute
       detail_1_netexprofile_notice_text: Missing element Text for Notice
-      detail_1_netexprofile_notice_alternative_text_text: Missing element Text for Notice Alternative Text
+      detail_1_netexprofile_notice_alternative_text_text: Missing or empty element Text for Notice Alternative Text
       detail_1_netexprofile_notice_alternative_text_lang: Missing element Lang for Notice Alternative Text
+      detail_1_netexprofile_notice_alternative_text_duplicate_lang: The Notice has two Alternative Texts with the same language
       detail_1_netexprofile_referencetoillegalelement: Element (reference) to %{error_value} is not allowed from element %{reference_value}. Generally an element named XXXXRef may only reference elements if type XXXX
       detail_1_netexprofile_resourceframe_organisations_authority_companynumber: Missing CompanyNumber element on Authority
       detail_1_netexprofile_resourceframe_organisations_authority_contactdetails: Missing ContactDetails on Authority
