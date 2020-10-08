@@ -42,7 +42,10 @@ en:
       1-NETEXPROFILE-UnknownProfile: Unknown NeTEx profile
       1-NETEXPROFILE-UnresolvedReferenceToCommonElements: Unresolved reference to elements in common files
       1-NETEXPROFILE-UseOfUnapprovedCodespace: Use of unapproved codespace
+      1-NETEXPROFILE-TimetableFrame-ServiceJourney: There should be at least one ServiceJourney
       1-NETEXPROFILE-TimetableFrame-ServiceJourney-OperatorRef-Or-Line-OperatorRef: Missing OperatorRef on ServiceJourney (not defined on Line)
+      1-NETEXPROFILE-TimetableFrame-ServiceJourney-DayTypeRef: The ServiceJourney does not reference a DayType and is not referenced by a DatedServiceJourney
+      1-NETEXPROFILE-TimetableFrame-ServiceJourney-DayTypeRef-DatedServiceJourney: The ServiceJourney references both DayTypes and DatedServiceJourneys
       2-DATABASE-AccessPoint-1: Contrôle de la valeur d’un arrêt associé lors de la sauvegarde d’un point d’accès en base
       2-DATABASE-ConnectionLink-1: Contrôle de la valeur des extrémités d’une correspondance lors de sa sauvegarde en base
       2-DATABASE-JourneyPattern-1: Contrôle de la valeur de la route associée lors de la sauvegarde d’une mission commerciale en base
@@ -178,7 +181,7 @@ en:
       3-VehicleJourney-1: The waiting time at a stop shall not be too long
       3-VehicleJourney-2: Travel speeds shall be neither too small nor too large
       3-VehicleJourney-3: Speeds between successive stops shall be similar for all journeys of the same mission
-      3-VehicleJourney-4: Every vehicle journey shall reference at least one calendar
+      3-VehicleJourney-4: Every vehicle journey shall reference at least one calendar or one dated service journey
       3-VehicleJourney-5: times must progress correctly along stops
       3-VehicleJourney-6: Une course à fréquence ne doit pas avoir deux périodes qui se chevauchent
       3-VehicleJourney-7: Les créneaux horaires d'une course à fréquence associés à un créneau horaire doivent être inclus dans ce créneau horaire
@@ -317,6 +320,10 @@ en:
       detail_1_netexprofile_timetableframe_servicejourney_transportmodeoverride: If overriding Line TransportMode or TransportSubmode on a ServiceJourney, both elements must be present
       detail_1_netexprofile_timetableframe_servicejourney_missingtimetabledpassingtime: ServiceJourney %{source_objectid} does not specify passing time for all StopPointInJourneyPattern
       detail_1_netexprofile_timetableframe_servicejourney_duplicatewithdifferentversion: ServiceJourney is repeated with a different version - only added dayTypes from it
+      detail_1_netexprofile_timetableframe_datedservicejourney_operatingdayref: Missing OperatingDayRef on DatedServiceJourney
+      detail_1_netexprofile_timetableframe_datedservicejourney_servicejourneyref: Missing ServiceJourneyRef on DatedServiceJourney
+      detail_1_netexprofile_timetableframe_datedservicejourney_multiple_servicejourneyref: Multiple ServiceJourneyRef on DatedServiceJourney
+      detail_1_netexprofile_timetableframe_datedservicejourney_duplicatewithdifferentversion: DatedServiceJourney is repeated with a different version
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_id: Missing id on FlexibleServiceProperties
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_version: Missing version on FlexibleServiceProperties
       detail_1_netexprofile_timetableframe_flexibleserviceproperties_bookingcontact: Mandatory element BookingContact not specified on FlexibleServiceProperties, FlexibleLine or on all StopPointInJourneyPatterns
