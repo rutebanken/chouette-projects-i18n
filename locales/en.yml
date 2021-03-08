@@ -649,6 +649,7 @@ en:
       detail_4_timetable_1_min_size: Attribute %{reference_value} of calendar %{source_label} (%{source_objectid}) is empty or too small (%{error_value})
       detail_4_timetable_1_pattern: Attribute %{reference_value} of calendar %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
       detail_4_timetable_1_unique: Attribute %{reference_value} of calendar %{source_label} (%{source_objectid}) has the same value as that of calendar %{target_0_label} (%{target_0_objectid})
+      detail_4_timetable_2: The calendar %{source_label} (%{source_objectid}) does not contain any active date
       detail_4_vehiclejourney_1_max_size: Attribute %{reference_value} of journey %{source_label} (%{source_objectid}) is too large (%{error_value})
       detail_4_vehiclejourney_1_min_size: Attribute %{reference_value} of journey %{source_label} (%{source_objectid}) is empty or too small (%{error_value})
       detail_4_vehiclejourney_1_pattern: Attribute %{reference_value} of journey %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
