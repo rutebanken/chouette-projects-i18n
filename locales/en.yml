@@ -581,7 +581,7 @@ en:
       detail_3_stoparea_4: Stop %{source_label} (%{source_objectid}) is out of the control perimeter
       detail_3_stoparea_5: 'Stop %{source_label} (%{source_objectid}) is too far from its parent %{target_0_label} (%{target_0_objectid}): %{error_value} meters. Maximum is %{reference_value} meters'
       detail_3_stoparea_7: Stop %{source_label} (%{source_objectid} has illegal combination of TransportMode (%{source_label.transportmodename}) and TransportSubMode (%{source_transportsubmode})
-      detail_rutebanken_3_stoppoint_1: StopPoint %{source_objectid} in Route %{target_0_objectid} with is refererring to an unknown StopArea with id %{error_value}
+      detail_rutebanken_3_stoppoint_1: StopPoint %{source_objectid} in Route %{target_0_objectid} which is referring to an unknown StopArea with id %{error_value}
       detail_rutebanken_3_stoppoint_2: StopPoint %{source_objectid} refers to a parent StopArea %{target_0_objectid} (%{target_0_label}), not a child StopArea (Quay/BoardingPosition)
       detail_rutebanken_3_stoppoint_3: StopPoint %{source_objectid} in Route %{target_1_label} at stop %{target_0_objectid} (%{target_0_label}) neither allows boarding nor alighting
       detail_3_vehiclejourney_1: 'The waiting time is too long at stop %{target_0_label} (%{target_0_objectid}) : %{error_value} seconds (Max wait time %{reference_value} seconds)'
