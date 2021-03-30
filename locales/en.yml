@@ -46,6 +46,9 @@ en:
       1-NETEXPROFILE-TimetableFrame-ServiceJourney-OperatorRef-Or-Line-OperatorRef: Missing OperatorRef on ServiceJourney (not defined on Line)
       1-NETEXPROFILE-TimetableFrame-ServiceJourney-DayTypeRef: The ServiceJourney does not reference a DayType and is not referenced by a DatedServiceJourney
       1-NETEXPROFILE-TimetableFrame-ServiceJourney-DayTypeRef-DatedServiceJourney: The ServiceJourney references both DayTypes and DatedServiceJourneys
+      1-NETEXPROFILE-TimetableFrame_DeadRun_TimetabledPassingTime: The Dead run does not reference passing times
+      1-NETEXPROFILE-TimetableFrame_DeadRun_JourneyPatternRef: The Dead run does not reference a journey pattern
+      1-NETEXPROFILE-TimetableFrame-DeadRun-DayTypeRef: The Dead run does not reference a DayType
       2-DATABASE-AccessPoint-1: Contrôle de la valeur d’un arrêt associé lors de la sauvegarde d’un point d’accès en base
       2-DATABASE-ConnectionLink-1: Contrôle de la valeur des extrémités d’une correspondance lors de sa sauvegarde en base
       2-DATABASE-JourneyPattern-1: Contrôle de la valeur de la route associée lors de la sauvegarde d’une mission commerciale en base
