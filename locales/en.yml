@@ -658,7 +658,7 @@ en:
       detail_4_vehiclejourney_1_pattern: Attribute %{reference_value} of journey %{source_label} (%{source_objectid}) has incorrect format (%{error_value})
       detail_4_vehiclejourney_1_unique: Attribute %{reference_value} of journey %{source_label} (%{source_objectid}) has the same value as that of journey %{target_0_label} (%{target_0_objectid})
       detail_4_vehiclejourney_2: Journey %{source_label} (%{source_objectid}) transport mode is invalid %{error_value}
-      detail_4_vehiclejourney_3: Journey %{source_label} (%{source_objectid}) references stop %{target_0_label} (%{target_0_objectid}) with TransportMode/TansportSubMode %{reference_value}, but Journey specifies incompatible TransportMode/TansportSubMode %{error_value}
+      detail_4_vehiclejourney_3: Journey %{source_label} (%{source_objectid}) references stop %{target_0_label} (%{target_0_objectid}) with TransportMode %{reference_value}, but Journey specifies incompatible TransportMode %{error_value}
     severities:
       error: Error
       error_txt: Error
